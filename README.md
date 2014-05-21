@@ -3,9 +3,7 @@ kudocracy
 
 "Liquid democracy meets Twitter"
 
-There is an early prototype [here](https://github.com/JeanHuguesRobert/l8/blob/master/test/vote.js).
-
-The test UI sometimes runs [here](https://l8-c9-jhr.c9.io/?input=page%20index).
+There is an early prototype [here](https://github.com/JeanHuguesRobert/l8/blob/master/test/vote.js). The test UI sometimes runs [here](http://l8-c9-jhr.c9.io/?input=page%20index).
 
 An introduction blog post (in french) is [here](http://virteal.tumblr.com/post/81729964730). A more detailed Google document is [here](https://docs.google.com/document/d/18DAlLESgGSp4RYVu78IjzGqJEjnKOty4uOfWPHTSNFw/edit?usp=sharing). See [also](http://virteal.tumblr.com/post/85621056174)
 
