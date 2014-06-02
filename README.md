@@ -18,7 +18,7 @@ How is it different?
 
 Traditional voting systems with elections every so often capture infrequent snapshots of the opinion. Because voting often is inconvenient, elections are either rare or participation suffers. Most decisions are therefore concentrated in the hands of a few representatives who are subject to corruption temptations. Liquid Democracy promises to solves these issues thanks to modern technologies.
 
-Avec Kudocray:
+With Kudocracy:
 
 * Votes are reversible, you can change your mind.
 
