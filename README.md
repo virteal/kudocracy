@@ -5,7 +5,7 @@ kudocracy
 
 What is it?
 -----------
-An experimental voting system where people can like/dislike hashtags.
+An experimental Liquid Democracy voting system where people can like/dislike hashtags.
 
 
 hashtags?
@@ -16,19 +16,25 @@ Hashtags are keywords used to categorize topics. See also #hashtags.org.
 How is it different?
 -----------
 
-Votes are reversible, you can change your mind.
+Traditional voting systems with elections every so often capture infrequent snapshots of the opinion. Because voting often is inconvenient, elections are either rare or participation suffers. Most decisions are therefore concentrated in the hands of a few representatives who are subject to corruption temptations. Liquid Democracy promises to solves these issues thanks to modern technologies.
 
-Propositions are searchable using tags.
+Avec Kudocray:
 
-Delegates may vote for you on some propositions.
+* Votes are reversible, you can change your mind.
 
-You can follow their recommendations or vote directly.
+* Propositions are searchable using tags.
 
-Results are updated in realtime after each vote.
+* Delegates may vote for you on some propositions.
 
-You can share your votes or hide them.
+* You can follow their recommendations or vote directly.
 
-It is open source.
+* Votes and delegations are ephemeral and disappear unless renewed.
+
+* Results are updated in realtime, trends are made visible.
+
+* You can share your votes or hide them.
+
+* It is open source.
 
 
 Is it available?
@@ -43,8 +49,9 @@ My name is Jean Hugues Robert, @jhr. I am a 48 years old software developper fro
 I hope you agree.  
 
 
+-----
 
-There is an early prototype [here](https://github.com/JeanHuguesRobert/l8/blob/master/test/vote.js). The test UI sometimes runs [here](http://l8-c9-jhr.c9.io/?input=page%20index).
+There is an early prototype that sometimes runs [there](http://kudocracy-c9-jhr.c9.io/?input=page%20index).
 
 An introduction blog post (in french) is [here](http://virteal.tumblr.com/post/81729964730). A more detailed Google document is [here](https://docs.google.com/document/d/18DAlLESgGSp4RYVu78IjzGqJEjnKOty4uOfWPHTSNFw/edit?usp=sharing). See [also](http://virteal.tumblr.com/post/85621056174)
 
