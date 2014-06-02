@@ -1,6 +1,14 @@
 # Logs
 logs
 *.log
+*.out
+
+# editors backups
+*.*~
+*.c9save
+
+# imported stuff
+*.gz
 
 # Runtime data
 pids
