@@ -1,0 +1,44 @@
+{
+  "name": "kudocracy",
+  "version": "0.1.0",
+  "description": "An experimental Liquid Democracy voting system where people can like/dislike hashtags.",
+  "main": "lib/main.js",
+  "files": [
+    "lib",
+    "test"
+  ],
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "l8": ">=0.3.0",
+    "split": ">=0.3.0"
+  },
+  "devDependencies": {
+    "coffee-script": "latest",
+    "browserify": "latest",
+    "uglify-js": "1",
+    "mocha": "latest"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/virteal/kudocracy.git"
+  },
+  "keywords": [
+    "liquid",
+    "democracy",
+    "liquid democracy",
+    "vote"
+  ],
+  "author": {
+    "name": "Jean Hugues Robert",
+    "email": "jean_hugues_robert@yahoo.com",
+    "url": "http://virteal.com"
+  },
+  "license": "MIT"
+}
