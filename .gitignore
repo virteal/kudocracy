@@ -34,4 +34,7 @@ node_modules
 
 # Don't git secrets
 lib/hooks.js
+lib/local_hooks.js
+hooks.js
+local_hooks.js
 
