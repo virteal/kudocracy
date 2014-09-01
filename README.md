@@ -5,7 +5,7 @@ kudocracy
 
 What is it?
 -----------
-An experimental Liquid Democracy voting system where people can like/dislike hashtags.
+An experimental Liquid Democracy voting system where each one of us can +1 like or -1 dislike propositions associated to hashtags, or delegate.
 
 
 hashtags?
@@ -13,10 +13,15 @@ hashtags?
 Hashtags are keywords used to categorize topics. See also #hashtags.org.
 
 
+Delegate?
+---------
+On propositions that match tags you specified, you tell who votes for you unless you vote directly.
+
+
 How is it different?
 -----------
 
-Traditional voting systems with elections every so often capture infrequent snapshots of the opinion. Because voting often is inconvenient, elections are either rare or participation suffers. Most decisions are therefore concentrated in the hands of a few representatives who are subject to corruption temptations. Liquid Democracy promises to solves these issues thanks to modern technologies.
+Traditional voting systems with elections every so often capture infrequent snapshots of the opinion. Because voting often on many matters is inconvenient, elections are either rare or participation suffers. Most decisions are therefore concentrated in the hands of a few representatives who may be pressured or subjected to corruption. Liquid Democracy promises to solve these issues thanks to modern technologies.
 
 With Kudocracy:
 
@@ -32,8 +37,6 @@ With Kudocracy:
 
 * Results are updated in realtime, trends are made visible.
 
-* You can share your votes or hide them.
-
 * It is open source.
 
 
@@ -46,8 +49,9 @@ Who are you?
 --------
 My name is Jean Hugues Robert, @jhr. I am a 48 years old software developper from Corsica (the island where Napoleon was born). When I discovered the Delegative democracy concept, I liked it. I think that it would be a good thing to apply it broadly, using modern technology, technology that people now use all over the world.
 
-I hope you agree.  
+I hope you agree. 
 
+Jean-Hugues.
 
 -----
 
