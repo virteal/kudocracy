@@ -13,6 +13,11 @@ hashtags?
 Hashtags are keywords used to categorize topics. See also #hashtags.org.
 
 
+Delegate?
+---------
+On propositions that match tags you specified, you tell who votes for you unless you vote directly.
+
+
 How is it different?
 -----------
 
