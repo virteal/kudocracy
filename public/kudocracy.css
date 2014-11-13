@@ -1,0 +1,553 @@
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+}
+body {
+  margin: 0px;
+  font-family: "Droid Sans", Verdana, Arial, sans-serif;
+  line-height: 1.35em;
+  color: #444;
+}
+#sw_tooltip {
+  display: none;
+  background: white;
+  padding: 0px 0.5em 0px 0.5em;
+  color: #444;
+  border: 2px solid lightgray;
+  max-width: 20em;
+  word-wrap: break-word;
+  z-index: 20;
+}
+#unfadder {
+  position: fixed;
+  top: 0;
+  margin: 0px 0.3em;
+  padding: 0px 0.3em;
+  background-color: #FFBABA;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -khtml-border-radius: 0.3em;
+  border-radius: 0.3em;
+}
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #BBB;
+  background-color: #9CF;
+  color: #BBB;
+  line-height: 1.35em;
+  text-wrap: normal;
+  word-wrap: break-word;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  cursor: default;
+  z-index: 10;
+}
+#header_content {
+  margin: 0px 0.3em;
+  text-align: center;
+}
+#header_content > div {
+  display: inline;
+}
+.top_left {
+  float: left;
+  border-bottom: 1px dotted blue;
+  text-align: left;
+}
+.top_right {
+  float: right;
+  border-bottom: 1px dotted red;
+  text-align: right;
+}
+.hide {
+  display: none;
+}
+#header a {
+  color: #333;
+}
+#header a:hover {
+  border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -khtml-border-radius: 0.3em;
+  box-shadow: 0px 0px 10px #666;
+  -moz-box-shadow: 0px 0px 10px #666;
+  -webkit-box-shadow: 0px 0px 10px #666;
+  color: #B01;
+  background-color: #FFBABA;
+  text-decoration: none;
+}
+#container {
+  margin: 2em auto;
+  font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace;
+}
+#sizer {
+  position: absolute;
+  font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace;
+  font-size: 1em;
+  left: 0px;
+  top: 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  color: transparent;
+  line-height: inherit;
+  text-shadow: none;
+}
+table {
+  border-spacing: 0px 0px;
+  margin: auto;
+}
+.content {
+  text-wrap: unrestricted;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  border: 2px solid lightgray;
+  border-top-style: none;
+  border-bottom-style: none;
+  margin: auto;
+  text-align: left;
+  vertical-align: top;
+  padding: 0px 1em 0px 1em;
+  min-height: 240px;
+  width: 31.5em;
+  background-color: #fdfdfa;
+}
+.sw_markdown {
+  white-space: normal;
+  font-family: "Droid Sans", Verdana, Arial, sans-serif;
+}
+.angular {
+  white-space: normal;
+}
+.content a {
+  /* matrix color: lightgreen;*/
+  /*text-decoration: underline;*/
+}
+#content_header {
+  margin-bottom: 1em;
+}
+#content_text {
+  display: inherit;
+}
+#content_edit {
+  display: inherit;
+  background-color: #F0F0F0;
+}
+#content_editable {
+  display: none;
+  background-color: #F0F0F0;
+}
+textarea {
+  font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace;
+  font-size: 1em;
+  line-height: inherit;
+  width: inherit;
+  text-wrap: unrestricted;
+  white-space: pre-wrap;
+  border: 0px solid transparent;
+  outline: none;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  background-color: transparent;
+  overflow: hidden;
+}
+#previous_content {
+  border: 2px solid lightgray;
+  border-top-style: none;
+  border-bottom-style: none;
+  padding: 0px 1em 0px 1em;
+  display: none;
+}
+#previous_content_header {
+  display: inherit;
+  margin-bottom: 2em;
+}
+#sw_traces {
+  font-size: 9px;
+  background-color: #000;
+  color: #eee;
+}
+#sw_notifications {
+  font-size: 1em;
+  background-color: #EEF;
+  color: #9CF;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  margin-right: 1em;
+  margin-top: 2em;
+  margin-left: auto;
+  display: none;
+}
+.sw_boxed {
+  -webkit-box-shadow: #EEE 0px 0px 6px;
+  -moz-box-shadow: #EEE 0px 0px 6px;
+  -box-shadow: #EEE 0px 0px 6px;
+  border-color: initial;
+  border-style: initial;
+  border-bottom-left-radius: 1em 0.5em;
+  border-bottom-right-radius: 1em 3em;
+  border: 1px solid #CCC;
+  border-top-left-radius: 1em 3em;
+  border-top-right-radius: 1em 0.5em;
+  margin: 0px auto;
+  max-width: 30em;
+  width: auto;
+  padding: 0.5em;
+}
+.sw_boxed ul {
+  -webkit-padding-start: 1em;
+  list-style-type: disc;
+}
+#footer {
+  width: 100%;
+  min-height: 400px;
+  border-top: 1px solid #BBB;
+  border-bottom: 1px solid #BBB;
+  color: #999;
+  word-wrap: break-word;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  cursor: default;
+  line-height: 1.2em;
+}
+#footer_content {
+  margin: 0px 0.3em;
+}
+#gotop {
+  float: right;
+}
+#login {
+  text-align: right;
+}
+#sw-login-box {
+  display: inline-block;
+  min-height: 24px;
+  max-height: 24px;
+  width: auto;
+  background-color: #99CCFF;
+  color: #444;
+  font-family: monospace;
+  font-size: small;
+  padding: 0 0.5em;
+}
+#sw-login {
+  min-height: 29px;
+}
+#tw-login {
+  min-height: 29px;
+}
+#li-login {
+  min-height: 29px;
+}
+#fb-login {
+  min-height: 29px;
+}
+.fb_iframe_widget {
+  min-height: 187px;
+}
+#footer_content a {
+  color: #777;
+}
+#powered {
+  text-align: right;
+  font-size: 60%;
+  font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace;
+}
+#footer_content a:hover {
+  border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -khtml-border-radius: 0.3em;
+  box-shadow: 0px 0px 10px #666;
+  -moz-box-shadow: 0px 0px 10px #666;
+  -webkit-box-shadow: 0px 0px 10px #666;
+  color: #B01;
+  background-color: #FFBABA;
+  text-decoration: none;
+}
+#footer_content ul.socials a:hover {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -khtml-border-radius: 0;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+input,
+select {
+  background-color: transparent;
+  font-family: "Droid Sans", Verdana, Arial, sans-serif;
+  font-size: 1em;
+  color: #555;
+  margin: 0.3em 0px 0px 0px;
+  border: 1px solid #AAA;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -khtml-border-radius: 0.3em;
+  border-radius: 0.3em;
+}
+input:hover {
+  color: #B01;
+  background-color: #FFBABA;
+  text-decoration: none;
+  border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -khtml-border-radius: 0.3em;
+  box-shadow: 0px 0px 10px #666;
+  -moz-box-shadow: 0px 0px 10px #666;
+  -webkit-box-shadow: 0px 0px 10px #666;
+}
+input:focus {
+  background-color: transparent;
+}
+#send {
+  color: red;
+}
+p {
+  word-wrap: break-word;
+}
+img {
+  border-top-color: #000000;
+  border-left-color: #000000;
+  border-right-color: #000000;
+  border-bottom-color: #000000;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  vertical-align: middle;
+}
+a {
+  color: #33A;
+  text-decoration: none;
+}
+a:visited {
+  color: #33A;
+}
+.hot strong {
+  color: #B01;
+}
+.hothot strong {
+  color: red;
+}
+a:hover,
+a.hover {
+  text-decoration: underline;
+}
+b {
+  color: #222;
+}
+i {
+  font-style: italic;
+  font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace;
+}
+em {
+  font-style: normal;
+  color: #B01;
+}
+cite {
+  color: #222;
+  font-style: italic;
+  font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace;
+}
+dfn {
+  color: #BBB;
+}
+dfn:hover {
+  color: #555;
+}
+var {
+  font-size: 0px;
+  color: #FFF;
+}
+code {
+  font-family: monospace;
+  font-size: 80%;
+  line-height: 1.4em;
+  color: #004600;
+}
+code.sw_markdown {
+  font-family: monospace;
+  font-size: 100%;
+  line-height: 1.35em;
+  color: #004600;
+}
+span.twitter {
+  background-color: #9AE4E8;
+}
+span.diff {
+  background-color: yellow;
+}
+div.yaml {
+  color: #CCC;
+}
+div.yaml:hover {
+  color: #004600;
+}
+time {
+  color: #BBB;
+  font-style: italic;
+  text-transform: lowercase;
+}
+time > i {
+  color: transparent;
+  text-shadow: none;
+}
+time > em {
+  font-size: 0px;
+  color: transparent;
+  text-shadow: none;
+}
+time:hover {
+  color: #555;
+}
+.recent {
+  color: #B99;
+}
+.old {
+  color: #DDD;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  display: inline;
+  margin: 0.9em 0px 0.3em;
+  padding: 0px;
+  line-height: 135%;
+}
+h1,
+h2,
+h3 {
+  letter-spacing: -0.05em;
+}
+h1 {
+  font-size: 280%;
+  font-weight: bolder;
+}
+h2 {
+  font-size: 140%;
+  font-weight: bold;
+}
+h3 {
+  font-size: 110%;
+  font-weight: bold;
+}
+h4 {
+  font-size: 85%;
+}
+h5 {
+  font-size: 60%;
+  line-height: 1.2em;
+  font-weight: normal;
+}
+hr {
+  color: #333;
+  background-color: #333;
+  height: 1px;
+  border-style: solid;
+  border-width: 0px;
+  width: 100%;
+  margin: 0.5em 0px;
+}
+.sw_hr {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #BBB;
+}
+.sw_pre_edit h1,
+.sw_pre_edit h2,
+.sw_pre_edit h3,
+.sw_pre_edit h4,
+.sw_pre_edit h5 {
+  font-size: 100%;
+  line-height: 1.35em;
+  margin: 0px 0px 0px 0px;
+}
+.sw_markdown h1,
+.sw_markdown h2,
+.sw_markdown h3,
+.sw_markdown h4,
+.sw_markdown h5 {
+  display: block;
+}
+pre {
+  line-height: inherit;
+  white-space: pre-wrap;
+  margin: 0px 0px 0px 0px;
+  font-family: inherit;
+}
+form {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border: 0px 0px 0px 0px;
+  outline: 0px 0px 0px 0px;
+}
+ul {
+  margin: 0;
+  -webkit-padding-start: 2em;
+  -moz-padding-start: 2em;
+  padding-left: 1em;
+  list-style-type: none;
+  font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace;
+}
+ol {
+  margin: 0;
+  -webkit-padding-start: 3em;
+  -moz-padding-start: 3em;
+  padding-left: 1em;
+  list-style-type: decimal;
+  font-family: inherit;
+}
+.CodeMirror-line-numbers {
+  width: 2.2em;
+  color: #aaa;
+  background-color: #eee;
+  text-align: right;
+  padding-right: .3em;
+  padding-top: .4em;
+  font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace;
+  font-size: 100%;
+  line-height: 1.35em;
+}
+.sw_codemirror {
+  font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace;
+  font-size: 100%;
+  line-height: 1.35em;
+}
+#sw_fb_like_button {
+  min-height: 21px;
+}
+.sw_fb_like_iframe {
+  border: none;
+  overflow: hidden;
+  height: 21px;
+}
+.editbox {
+  font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace;
+  font-size: 100%;
+  line-height: 1.35em;
+}
+.sw_what {
+  display: inline;
+}
+.sw_what_content {
+  display: none;
+  background-color: #FFFFE0;
+}
+.sw_what_close {
+  position: absolute;
+  top: 2px;
+  right: 3px;
+}

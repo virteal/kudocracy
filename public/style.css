@@ -1,0 +1,289 @@
+/* css style for Kudocracy's index page
+ * 2007/03/23, JHR, Lack of constants in CSS is frustrating...
+ * 2010/05/12, JHR, SimpliWiki, from virtreal's style
+ * 2010/10/19, JHR, i18n
+ * 2014/02/09, JHR, remove 3D effects
+ * 2014/11/13, JHR, from simpliwiki's style.css
+ * background-color:#f8f5f0;
+ * (c) 2006-14 JeanHuguesRobert
+  */
+
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+}
+
+body {
+  background-color: #505065;
+  color: #484848;
+/*  color: #444;*/
+  margin:0em;
+  font-family: 'Droid Sans Mono', Monaco, Consolas, "Lucida Console", monospace;
+  line-height: 1.2em;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 16pt;
+  /*text-shadow: #DDD 0.03em 0.03em 0.05em, #FAFAFA -1px -1px 1px;*/
+  /*text-shadow: #999 1px 1px 1px, #EEE -1px -1px 1px*/
+/*  background-color: #FAFAFA;*/
+}
+
+div.i18n{
+  display: none;
+}
+
+span.i18n{
+  display: none;
+}
+
+div.sw_header {
+  background-color: #99CCFF;
+  padding: 1em 0em;
+
+}
+
+div.sw_header_content {
+  margin: auto;
+  padding: 0em 0em;
+  max-width: 640px
+}
+
+div.sw_logo {
+/*  text-shadow: #DDD 0.03em 0.03em 0.05em, #DDEEFF -1px -1px 1px;*/
+  width: 240px;
+  /*text-shadow: #DEF -1px -1px 1px;*/
+  background-color: #99CCFF;
+}
+
+h1 {
+  color: #555;
+  font-size: 150%;
+  line-height: 1em;
+  font-style: italic;
+  /*text-shadow: #DEF -1px -1px 1px;*/
+  background-color: #99CCFF;
+  margin-bottom: 0em;
+  /*text-shadow: #888 1px 1px 1px, #CCC -1px -1px 1px;*/
+  /*text-decoration: underline;*/
+  /*text-shadow: #AAA 1px 1px 1px, #FAFAFA -1px -1px 1px;*/
+}
+
+div.sw_code {
+ /* max-width: 640px; */
+  margin: 0px 0.5em;
+ /*  text-align: right; */
+}
+
+div.sw_boxed {
+-webkit-box-shadow: #EEE 0px 0px 6px;
+-moz-box-shadow: #EEE 0px 0px 6px;
+-box-shadow: #EEE 0px 0px 6px;
+border-color: initial;
+border-style: initial;
+border: 1px solid #CCC;
+border-top-left-radius: 1em 3em;
+border-top-right-radius: 1em 0.5em;
+border-bottom-left-radius: 1em 0.5em;
+border-bottom-right-radius: 1em 3em;
+margin: 0px auto;
+max-width: 640px;
+padding: 0.5em;
+/*
+  border: 1px;
+  border-style: solid;
+  border-color: #CCC;
+  max-width: 640px;
+  margin: 0px auto;
+  padding: 0.5em;
+  -webkit-box-shadow: #888 2px 4px 6px;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -khtml-border-radius: 1em;*/
+}
+
+#sw_box {
+  min-height: 150px;
+  background-color: #FFF;
+  background-image: url(/bg.png);
+}
+
+#sw-login-box {
+  display: inline-block;
+  min-height: 24px;
+  max-height: 24px;
+  width: auto;
+  background-color: #99CCFF;
+  color: #444;
+  font-family: monospace;
+  font-size: small;
+  padding: 0 0.5em;
+}
+
+#sw-login {
+  min-height: 29px;
+}
+
+#tw-login {
+  min-height: 29px;
+}
+
+#fb-login {
+  min-height: 2px;
+}
+#li-login {
+  min-height: 29px; /* 48 if with profile image */
+}
+
+#login {
+  font-family: 'Droid Sans', Verdana, Arial, sans-serif;
+  color:#777;
+}
+
+div.sw_footer {
+  background-color: #FFBABA;
+  /*text-shadow: #F0E0E0 1px 1px 1px;*/
+  /*text-shadow: #F0E0E0 -1px -1px 1px, #644 1px 1px 1px;*/
+}
+
+#version {
+  color: #444;
+  /*text-shadow: #999 1px 1px 1px, #EEE -1px -1px 1px;*/
+}
+
+iframe.sw {
+  width: 540px;
+  height: 480px;
+  border:1px dashed #BBB;
+}
+
+table {
+  border-spacing: 0px 0px;
+  margin: auto;
+}
+
+td {
+  vertical-align: top;
+  padding: 0px 0px 0px 0px;
+  /* font-family: test, monospace;*/
+  min-height: 240px;
+  /*min-width: 67ex;
+  max-width: 67ex;*/
+  word-wrap: break-word;
+}
+
+input {
+  background-color: transparent;
+  font-family:  'Droid Sans Mono', Monaco, Consolas, "Lucida Console", monospace;
+  font-size: 1em;
+  width: 210px;
+  color: #555;
+  margin: 0px;
+  border: 1px solid #AAA;
+  /*-moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -khtml-border-radius: 0.3em;*/
+  border-radius: 0.3em;
+  border-top-left-radius: 0.33em 1em;
+  border-top-right-radius: 0.33em 0.16em;
+  border-bottom-left-radius: 0.33em 0.16em;
+  border-bottom-right-radius: 0.33em 1em;
+}
+.sw_submit {
+  background-color: #ffffff;
+  color: #000;
+}
+
+input:hover {
+  color:#A42;
+  text-decoration: none;
+  -webkit-box-shadow: 0px 0px 10px #336699;
+}
+
+input:focus {
+  background-color: transparent;
+}
+
+#wiki-cta {
+  color: #A42;
+  width: 5em;
+}
+
+
+
+p {
+  word-wrap: break-word;
+}
+
+/* Pure pure images */
+img {
+  border-top-color: #000000;
+  border-left-color: #000000;
+  border-right-color: #000000;
+  border-bottom-color: #000000;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  vertical-align: middle;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #C44;
+  text-decoration: underline;
+}
+
+a:link {
+/*  color:#33A;*/
+  color: #744;
+}
+
+a:visited {
+/*  color:#33A;*/
+  color: #744;
+}
+
+em {
+  font-style: normal;
+  font-weight: bold;
+  color: #942;
+}
+
+
+#content {
+  background-color: #99CCFF;
+}
+
+h2 {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 110%;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 85%;
+}
+
+h5 {
+  font-size: 60%;
+}
+
+form {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border: 0px;
+  outline: 0px;
+}
