@@ -203,9 +203,9 @@ textarea {
 }
 #footer {
   width: 100%;
-  min-height: 400px;
+  /* min-height: 400px; */
   border-top: 1px solid #BBB;
-  border-bottom: 1px solid #BBB;
+  /* border-bottom: 1px solid #BBB; */
   color: #999;
   word-wrap: break-word;
   -moz-user-select: none;
@@ -550,4 +550,38 @@ ol {
   position: absolute;
   top: 2px;
   right: 3px;
+}
+#search{
+  background:#fee;
+  padding: 0.5em;
+}
+.help{
+  color:#884;
+}
+.even{
+  background:#eef;
+  padding: 0.5em;
+}
+.odd{
+  background:#eff;
+  padding: 0.5em;
+}
+.vote{
+  background:#fef;
+  padding: 0.5em;
+}
+.ballot{
+  background:#eee;
+  padding: 0.5em;
+}
+.comment{
+  background:#efe;
+  padding: 0.5em;
+  max-width: 72em
+}
+dfn a:link, dfn a:visited {
+  color:#bbb;
+}
+dfn a:hover {
+  color:blue;
 }
