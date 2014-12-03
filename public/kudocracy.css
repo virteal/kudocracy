@@ -552,19 +552,32 @@ ol {
   right: 3px;
 }
 #search{
+  border: 1px solid #e7e7e7; 
   background:#fee;
   padding: 0.5em;
 }
 .help{
   color:#884;
 }
+.ballot_text_area{
+  border: 1px solid #e7e7e7; 
+}
+.thin_border{
+  border: 1px solid #e7e7e7; 
+}
 .even{
   background:#eef;
   padding: 0.5em;
+  border: 1px solid #e7e7e7; 
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
 }
 .odd{
   background:#eff;
   padding: 0.5em;
+  border: 1px solid #e7e7e7; 
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
 }
 .vote{
   background:#fef;
