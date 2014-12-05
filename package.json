@@ -22,7 +22,8 @@
     "firebase": "^2.0.4",
     "l8": "latest",
     "querystring": ">=0.2.0",
-    "split": ">=0.3.0"
+    "split": ">=0.3.0",
+    "twit": "^1.1.18"
   },
   "devDependencies": {
     "coffee-script": "latest",
