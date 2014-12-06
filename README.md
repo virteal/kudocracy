@@ -3,6 +3,11 @@ kudocracy
 
 "Liquid democracy meets Twitter"
 
+Where is it running ?
+---------------------
+
+Either connect to http://kudocracy.com or send a "login" direct message to @Kudocracy using http://twitter.com and then follow the link in the response.
+
 What is it?
 -----------
 An experimental Liquid Democracy voting system where each one of us can +1 like or -1 dislike propositions associated to hashtags, or delegate.
