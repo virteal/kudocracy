@@ -6,7 +6,7 @@ kudocracy
 Where is it running ?
 ---------------------
 
-Either connect to http://kudocracy.com or send a "login" direct message to @Kudocracy using Twitter and then follow the link in the response.
+Either connect to http://kudocracy.com or send a "login" direct message to @Kudocracy using http://twitter.com and then follow the link in the response.
 
 What is it?
 -----------
