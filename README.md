@@ -60,10 +60,16 @@ Jean-Hugues.
 
 -----
 
-There is an early prototype that sometimes runs [there](http://vote.simpliwiki.com)
-An introduction blog post (in french) is [here](http://virteal.tumblr.com/post/81729964730). A more detailed Google document is [here](https://docs.google.com/document/d/18DAlLESgGSp4RYVu78IjzGqJEjnKOty4uOfWPHTSNFw/edit?usp=sharing). See [also](http://virteal.tumblr.com/post/85621056174)
+In french:
 
-Posts in english: [about realtime](http://virteal.tumblr.com/post/86071662644)
+An introduction blog post is [here](http://virteal.tumblr.com/post/81729964730). A more detailed Google document is [here](https://docs.google.com/document/d/18DAlLESgGSp4RYVu78IjzGqJEjnKOty4uOfWPHTSNFw/edit?usp=sharing). See [also](http://virteal.tumblr.com/post/85621056174).
+
+In english: 
+
+* [About realtime](http://virteal.tumblr.com/post/86071662644),
+* [A business model for Liquid Democracy](https://docs.google.com/presentation/d/11kSfdzxJQo7_J4IJTTJ7LxEcUZZzPUUPLNZwnHBBrhM),
+* [Opinions, as a service](http://virteal.tumblr.com/post/103574717699),
+* [Scalable Liquid Democracy, using "Remote delegates"](http://virteal.tumblr.com/post/103066840964).
 
 
 
