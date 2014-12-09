@@ -37,19 +37,18 @@ span.i18n{
   display: none;
 }
 
-div.sw_header {
+.sw_header {
   background-color: #99CCFF;
   padding: 1em 0em;
-
 }
 
-div.sw_header_content {
+.sw_header_content {
   margin: auto;
   padding: 0em 0em;
-  max-width: 640px
+  max-width: 640px;
 }
 
-div.sw_logo {
+.sw_logo {
 /*  text-shadow: #DDD 0.03em 0.03em 0.05em, #DDEEFF -1px -1px 1px;*/
   width: 240px;
   /*text-shadow: #DEF -1px -1px 1px;*/
@@ -69,13 +68,13 @@ h1 {
   /*text-shadow: #AAA 1px 1px 1px, #FAFAFA -1px -1px 1px;*/
 }
 
-div.sw_code {
+.sw_code {
  /* max-width: 640px; */
   margin: 0px 0.5em;
  /*  text-align: right; */
 }
 
-div.sw_boxed {
+.sw_boxed {
 -webkit-box-shadow: #EEE 0px 0px 6px;
 -moz-box-shadow: #EEE 0px 0px 6px;
 -box-shadow: #EEE 0px 0px 6px;
@@ -120,27 +119,7 @@ padding: 0.5em;
   padding: 0 0.5em;
 }
 
-#sw-login {
-  min-height: 29px;
-}
-
-#tw-login {
-  min-height: 29px;
-}
-
-#fb-login {
-  min-height: 2px;
-}
-#li-login {
-  min-height: 29px; /* 48 if with profile image */
-}
-
-#login {
-  font-family: 'Droid Sans', Verdana, Arial, sans-serif;
-  color:#777;
-}
-
-div.sw_footer {
+.sw_footer {
   background-color: #FFBABA;
   /*text-shadow: #F0E0E0 1px 1px 1px;*/
   /*text-shadow: #F0E0E0 -1px -1px 1px, #644 1px 1px 1px;*/
@@ -151,7 +130,7 @@ div.sw_footer {
   /*text-shadow: #999 1px 1px 1px, #EEE -1px -1px 1px;*/
 }
 
-iframe.sw {
+.sw {
   width: 540px;
   height: 480px;
   border:1px dashed #BBB;
@@ -198,16 +177,14 @@ input:hover {
   color:#A42;
   text-decoration: none;
   -webkit-box-shadow: 0px 0px 10px #336699;
+  -moz-box-shadow: 0px 0px 10px #336699;
+  box-shadow: 0px 0px 10px #336699;
 }
 
 input:focus {
   background-color: transparent;
 }
 
-#wiki-cta {
-  color: #A42;
-  width: 5em;
-}
 
 
 
@@ -263,23 +240,6 @@ em {
   background-color: #99CCFF;
 }
 
-h2 {
-  font-size: 140%;
-  font-weight: bold;
-}
-
-h3 {
-  font-size: 110%;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: 85%;
-}
-
-h5 {
-  font-size: 60%;
-}
 
 form {
   padding: 0px 0px 0px 0px;
