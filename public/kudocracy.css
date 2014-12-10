@@ -163,6 +163,9 @@ textarea {
   display: inherit;
   margin-bottom: 2em;
 }
+#change_filter {
+  line-height: 2;
+}
 #sw_traces {
   font-size: 9px;
   background-color: #000;
