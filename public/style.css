@@ -29,6 +29,10 @@ body {
 /*  background-color: #FAFAFA;*/
 }
 
+#tagline {
+  text-align: right;
+}
+
 div.i18n{
   display: none;
 }
@@ -246,4 +250,5 @@ form {
   margin: 0px 0px 0px 0px;
   border: 0px;
   outline: 0px;
+  display: inline-block;
 }
