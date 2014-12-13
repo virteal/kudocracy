@@ -32,6 +32,8 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  font-size: 140%;
+  padding-top: 1px;
   border-bottom: 1px solid #BBB;
   background-color: #9CF;
   color: #BBB;
@@ -39,6 +41,7 @@ body {
   text-wrap: normal;
   word-wrap: break-word;
   -moz-user-select: none;
+  -ms-user-select: none;
   -webkit-user-select: none;
   cursor: default;
   z-index: 10;
@@ -67,13 +70,13 @@ body {
   color: #333;
 }
 #header a:hover {
-  border-radius: 0.3em;
   -moz-border-radius: 0.3em;
   -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
   -khtml-border-radius: 0.3em;
-  box-shadow: 0px 0px 10px #666;
   -moz-box-shadow: 0px 0px 10px #666;
   -webkit-box-shadow: 0px 0px 10px #666;
+  box-shadow: 0px 0px 10px #666;
   color: #B01;
   background-color: #FFBABA;
   text-decoration: none;
@@ -119,10 +122,6 @@ table {
 }
 .angular {
   white-space: normal;
-}
-.content a {
-  /* matrix color: lightgreen;*/
-  /*text-decoration: underline;*/
 }
 #content_header {
   margin-bottom: 1em;
@@ -205,12 +204,14 @@ textarea {
 }
 #footer {
   width: 100%;
+  font-size: 120%;
   /* min-height: 400px; */
   border-top: 1px solid #BBB;
   /* border-bottom: 1px solid #BBB; */
   color: #999;
   word-wrap: break-word;
   -moz-user-select: none;
+  -ms-user-select: none;
   -webkit-user-select: none;
   cursor: default;
   line-height: 1.2em;
