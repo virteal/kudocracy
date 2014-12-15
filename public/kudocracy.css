@@ -29,7 +29,7 @@ body {
   border-radius: 0.3em;
 }
 #header {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   width: 100%;
   font-size: 140%;
@@ -53,13 +53,16 @@ body {
 #header_content > div {
   display: inline;
 }
-.top_left {
+#top_left {
   float: left;
   border-bottom: 1px dotted blue;
   text-align: left;
 }
-.top_right {
-  float: right;
+#top_center {
+  text-align: center;
+}
+#top_right {
+  /* float: right; -- set dynamically to preserve height when noscript */
   border-bottom: 1px dotted red;
   text-align: right;
 }
