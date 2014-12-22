@@ -30,7 +30,6 @@ body {
   border-radius: 0.3em;
 }
 #header {
-  /* position: fixed; */
   top: 0;
   width: 100%;
   font-size: 140%;
@@ -76,8 +75,8 @@ body {
 #header a:hover {
   -moz-border-radius: 0.3em;
   -webkit-border-radius: 0.3em;
-  border-radius: 0.3em;
   -khtml-border-radius: 0.3em;
+  border-radius: 0.3em;
   -moz-box-shadow: 0px 0px 10px #666;
   -webkit-box-shadow: 0px 0px 10px #666;
   box-shadow: 0px 0px 10px #666;
