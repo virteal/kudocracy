@@ -105,6 +105,7 @@ body {
 #container {
   margin: 2em auto;
   font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace;
+  overflow: hidden;
 }
 #sizer {
   position: absolute;
@@ -384,6 +385,7 @@ cite {
   font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace;
 }
 dfn {
+  font-style: normal;
   color: #BBB;
 }
 dfn:hover {
@@ -595,6 +597,7 @@ ol {
   border: 1px solid #e7e7e7; 
   margin-top: 0.25em;
   margin-bottom: 0.25em;
+  overflow: hidden;
 }
 .odd{
   background:#eff;
@@ -602,6 +605,7 @@ ol {
   border: 1px solid #e7e7e7; 
   margin-top: 0.25em;
   margin-bottom: 0.25em;
+  overflow: hidden;
 }
 .vote{
   background:#fef;
