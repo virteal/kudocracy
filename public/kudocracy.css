@@ -1,3 +1,4 @@
+/*
 html {
   font-size: 100%;
   overflow-y: scroll;
@@ -8,6 +9,7 @@ body {
   color: #444;
   height: 100%; 
 }
+*/
 #sw_tooltip {
   display: none;
   background: white;
@@ -104,25 +106,10 @@ body {
 
 #container {
   margin: 2em auto;
-  font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace;
+  /* font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace; */
   overflow: hidden;
 }
-#sizer {
-  position: absolute;
-  font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace;
-  font-size: 1em;
-  left: 0px;
-  top: 0px;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-  color: transparent;
-  line-height: inherit;
-  text-shadow: none;
-}
-table {
-  border-spacing: 0px 0px;
-  margin: auto;
-}
+
 .content {
   text-wrap: unrestricted;
   word-wrap: break-word;
@@ -160,7 +147,8 @@ table {
   background-color: #F0F0F0;
 }
 textarea {
-  font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace;
+ /* font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace; */
+  background-color: transparent;
   font-size: 1em;
   line-height: inherit;
   width: inherit;
@@ -170,20 +158,10 @@ textarea {
   outline: none;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
-  background-color: transparent;
+ /* background-color: transparent; */
   overflow: hidden;
 }
-#previous_content {
-  border: 2px solid lightgray;
-  border-top-style: none;
-  border-bottom-style: none;
-  padding: 0px 1em 0px 1em;
-  display: none;
-}
-#previous_content_header {
-  display: inherit;
-  margin-bottom: 2em;
-}
+
 #change_filter {
   line-height: 2;
 }
@@ -247,29 +225,7 @@ textarea {
 #login {
   text-align: right;
 }
-#sw-login-box {
-  display: inline-block;
-  min-height: 24px;
-  max-height: 24px;
-  width: auto;
-  background-color: #99CCFF;
-  color: #444;
-  font-family: monospace;
-  font-size: small;
-  padding: 0 0.5em;
-}
-#sw-login {
-  min-height: 29px;
-}
-#tw-login {
-  min-height: 29px;
-}
-#li-login {
-  min-height: 29px;
-}
-#fb-login {
-  min-height: 29px;
-}
+
 .fb_iframe_widget {
   min-height: 187px;
 }
@@ -304,17 +260,23 @@ textarea {
 }
 input,
 select {
+  /*
   background-color: transparent;
   font-family: "Droid Sans", Verdana, Arial, sans-serif;
   font-size: 1em;
   color: #555;
-  margin: 0.3em 0px 0px 0px;
   border: 1px solid #AAA;
   -moz-border-radius: 0.3em;
   -webkit-border-radius: 0.3em;
   -khtml-border-radius: 0.3em;
   border-radius: 0.3em;
+  margin: 0.3em 0px 0px 0px;
+  */
 }
+select {
+  background-color: transparent;
+}
+/*
 input:hover {
   color: #B01;
   background-color: #FFBABA;
@@ -330,12 +292,8 @@ input:hover {
 input:focus {
   background-color: transparent;
 }
-#send {
-  color: red;
-}
-p {
-  word-wrap: break-word;
-}
+*/
+
 img {
   border-top-color: #000000;
   border-left-color: #000000;
@@ -351,6 +309,7 @@ img {
   border-bottom-style: none;
   vertical-align: middle;
 }
+/*
 a {
   color: #33A;
   text-decoration: none;
@@ -358,12 +317,14 @@ a {
 a:visited {
   color: #33A;
 }
+*/
 .hot strong {
   color: #B01;
 }
 .hothot strong {
   color: red;
 }
+/*
 a:hover,
 a.hover {
   text-decoration: underline;
@@ -375,6 +336,7 @@ i {
   font-style: italic;
   font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace;
 }
+*/
 em {
   font-style: normal;
   color: #B01;
@@ -382,7 +344,7 @@ em {
 cite {
   color: #222;
   font-style: italic;
-  font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace;
+  /* font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace; */
 }
 dfn {
   font-style: normal;
@@ -391,10 +353,13 @@ dfn {
 dfn:hover {
   color: #555;
 }
+/*
 var {
   font-size: 0px;
   color: #FFF;
 }
+*/
+/*
 code {
   font-family: monospace;
   font-size: 80%;
@@ -419,6 +384,7 @@ div.yaml {
 div.yaml:hover {
   color: #004600;
 }
+*/
 time {
   color: #BBB;
   font-style: italic;
@@ -520,6 +486,7 @@ form {
   border: 0px 0px 0px 0px;
   outline: 0px 0px 0px 0px;
 }
+/*
 ul {
   margin: 0;
   -webkit-padding-start: 2em;
@@ -577,6 +544,7 @@ ol {
   top: 2px;
   right: 3px;
 }
+*/
 #search{
   border: 1px solid #e7e7e7; 
   background:#fee;
