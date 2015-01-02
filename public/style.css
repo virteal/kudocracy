@@ -62,7 +62,6 @@ span.i18n{
 h1 {
   color: #555;
   font-size: 150%;
-  line-height: 1em;
   font-style: italic;
   /*text-shadow: #DEF -1px -1px 1px;*/
   background-color: #99CCFF;
@@ -125,6 +124,7 @@ padding: 0.5em;
 
 .sw_footer {
   background-color: #FFBABA;
+  line-height: 1.7em;
   /*text-shadow: #F0E0E0 1px 1px 1px;*/
   /*text-shadow: #F0E0E0 -1px -1px 1px, #644 1px 1px 1px;*/
 }
@@ -197,6 +197,7 @@ p {
 }
 
 /* Pure pure images */
+/*
 img {
   border-top-color: #000000;
   border-left-color: #000000;
@@ -210,7 +211,11 @@ img {
   border-left-style: none;
   border-right-style: none;
   border-bottom-style: none;
-  vertical-align: middle;
+}
+*/
+.avatar img {
+  border: 1px solid #ccd6dd;
+  border-radius: 4px;
 }
 
 
