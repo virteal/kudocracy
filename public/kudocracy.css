@@ -331,6 +331,7 @@ input:focus {
 */
 
 img {
+/*
   border-top-color: #000000;
   border-left-color: #000000;
   border-right-color: #000000;
@@ -344,8 +345,12 @@ img {
   border-right-style: none;
   border-bottom-style: none;
   vertical-align: middle;
+*/
   border: 1px solid #ccd6dd;
   border-radius: 4px;
+}
+#powered img {
+  border: 0px;
 }
 /*
 a {
