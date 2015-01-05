@@ -172,9 +172,15 @@ body {
 
 tr{
   border-top: 1px solid #ccc;
+  line-height: 1.4em;
+}
+tr:first-child {
+  border-top: 0px;
 }
 td{
   border: 0;
+  padding-top: 0.4em;
+  padding-bottom: 0.3em;
 }
 td:first-child {
   padding-right: 0.5em;
@@ -581,6 +587,7 @@ ol {
   border: 1px solid #e7e7e7; 
   background:#fee;
   padding: 0.5em;
+  line-height: 1.8em;
 }
 /* restore cancel button in search input fields, removed by bootstrap maybe */
 #search input[type=search]::-webkit-search-cancel-button {
