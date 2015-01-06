@@ -35,7 +35,8 @@ body {
   top: 0;
   width: 100%;
   font-size: 140%;
-  padding-top: 1px;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   border-bottom: 1px solid #BBB;
   background-color: #9CF;
   color: #777;
@@ -627,11 +628,13 @@ ol {
 .hide_button_icon{
   float: right;
   color: #ccc;
+  font-size: 120%;
 }
 .show_button_icon{
   display: none;
   float: right;
   color: #ccc;
+  font-size: 140%;
 }
 .vote{
   background:#fef;
