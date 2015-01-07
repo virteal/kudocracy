@@ -1,7 +1,9 @@
-/*
+
 html {
-  font-size: 100%;
-  overflow-y: scroll;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  /* font-size: 100%;
+  overflow-y: scroll; */
 }
 body {
   margin: 0px;
@@ -657,5 +659,8 @@ dfn a:hover {
 }
 
 a:active {
+  color: red;
+}
+a.active {
   color: red;
 }
