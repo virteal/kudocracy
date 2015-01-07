@@ -42,7 +42,7 @@ body {
   border-bottom: 1px solid #BBB;
   background-color: #9CF;
   color: #777;
-  line-height: 1.35em;
+  /* line-height: 1.35em; */
   text-wrap: normal;
   word-wrap: break-word;
   -moz-user-select: none;
@@ -161,29 +161,22 @@ body {
   font-size: 65%;
   padding: 5px 7px 3px 7px;
 }
-#change_filter select {
-  color: #888;
-  border: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  margin: 0px;
-}
-#select::-ms-expand {
+select::-ms-expand {
   display: none;
 }
 
-tr{
+tr {
   border-top: 1px solid #ccc;
-  line-height: 1.4em;
+  /* line-height: 1.4em; */
 }
 tr:first-child {
   border-top: 0px;
 }
-td{
+td {
   border: 0;
   padding-top: 0.4em;
   padding-bottom: 0.3em;
+  vertical-align: top;
 }
 td:first-child {
   padding-right: 0.5em;
@@ -253,7 +246,7 @@ textarea {
   -ms-user-select: none;
   -webkit-user-select: none;
   cursor: default;
-  line-height: 1.2em;
+  /* line-height: 1.2em; */
 }
 #footer_content {
   margin: 0px 0.3em;
@@ -602,6 +595,15 @@ ol {
   -webkit-appearance: searchfield-cancel-button;
   -moz-appearance: searchfield-cancel-button;
 }
+#change_filter select {
+  float: right;
+  color: #888;
+  border-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0px;
+}
 .help{
   color:#884;
 }
@@ -664,3 +666,5 @@ a:active {
 a.active {
   color: red;
 }
+
+
