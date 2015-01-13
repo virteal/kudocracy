@@ -666,5 +666,8 @@ a:active {
 a.active {
   color: red;
 }
+a[href], button {
+  touch-action: manipulation;
+}
 
 
