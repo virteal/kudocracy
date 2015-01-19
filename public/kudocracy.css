@@ -9,7 +9,13 @@ body {
   margin: 0px;
   font-family: "Droid Sans", Verdana, Arial, sans-serif;
   color: #444;
-  height: 100%; 
+  height: 100%;
+  -webkit-tap-highlight-color: #c00;
+  -moz-tap-highlight-color: #c00;
+	tap-highlight-color: #c00;
+	-webkit-touch-callout: none;
+  -moz-touch-callout: none;
+  touch-callout: none;
 }
 
 #tooltip {
@@ -116,6 +122,7 @@ body {
 }
 
 .content {
+  position: relative;
   text-wrap: unrestricted;
   word-wrap: break-word;
   white-space: pre-wrap;
@@ -153,7 +160,7 @@ body {
 }
 
 #change_filter {
-  /* line-height: 1.8em; */
+  
 }
 #change_filter .badge {
   background-color: #C7C7C7;
@@ -380,6 +387,11 @@ em {
   font-style: normal;
   color: #B01;
 }
+em a:link, em a:visited {
+  font-style: normal;
+  color: #B01;
+  text-decoration: underline;
+}
 cite {
   color: #222;
   font-style: italic;
@@ -587,8 +599,11 @@ ol {
 #search{
   border: 1px solid #e7e7e7; 
   background:#fee;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   padding: 0.5em;
   line-height: 1.8em;
+  overflow: hidden;
 }
 /* restore cancel button in search input fields, removed by bootstrap maybe */
 #search input[type=search]::-webkit-search-cancel-button {
@@ -620,6 +635,7 @@ ol {
   margin-top: 0.25em;
   margin-bottom: 0.25em;
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 .odd{
   background:#eff;
@@ -628,16 +644,17 @@ ol {
   margin-top: 0.25em;
   margin-bottom: 0.25em;
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 .hide_button_icon{
   float: right;
-  color: #ccc;
+  color: #ddd;
   font-size: 120%;
 }
 .show_button_icon{
   display: none;
-  float: right;
-  color: #ccc;
+  float: left;
+  color: #bbb;
   font-size: 140%;
 }
 .vote{
@@ -655,19 +672,78 @@ ol {
 }
 dfn a:link, dfn a:visited {
   color:#bbb;
+  text-decoration: underline;
 }
 dfn a:hover {
   color:blue;
 }
 
 a:active {
-  color: red;
+  color: green; /* #A11B17; */
 }
 a.active {
   color: red;
+  text-decoration: underline;
 }
 a[href], button {
   touch-action: manipulation;
 }
 
+.name {
+  font-weight: bold;
+  color: #444;
+}
+
+.visitor_image {
+  display: inline-block;
+  position: relative;
+  top: -3px;
+}
+
+.vote_button {
+  cursor: pointer; 
+}
+
+#recent_events{
+  margin: 0.5em;
+  margin-left: 1em;
+  margin-right: 0;
+  float: right;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  padding: 0.5em;
+  background-color: #E3FFE8;
+  border: 1px solid #e7e7e7;
+  max-width: 29%;
+  z-index: 10;
+}
+
+.recent_event{
+  padding-top: 0.6em;
+  padding-bottom: 0.3em;
+  padding-left: 26px;
+  border-bottom: 1px solid #e8e8e8;
+  line-height: 1.8em;
+}
+.event_time {
+  display: inline-block;
+  /* float: right; */
+  color: #707070;
+}
+.event_persona {
+  display: inline-block;
+  margin-left: -26px;
+}
+.chart_pie {
+  height: 300px;
+  max-width: 430px;
+}
+.chart_serie {
+  height: 100px;
+}
+
+
+a[href*="twitter"] {
+  color: #0084b4;
+}
 
