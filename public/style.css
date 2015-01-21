@@ -349,3 +349,10 @@ a[href*="twitter"] {
   color: #0084b4;
 }
 
+.kudo_collapse {
+  display: none;
+}
+
+.twitter_blue {
+  color: #55ACEE;
+}

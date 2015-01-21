@@ -764,4 +764,10 @@ a[href], button {
   height: 100px;
 }
 
+.kudo_collapse {
+  display: none;
+}
 
+.twitter_blue {
+  color: #55ACEE;
+}
