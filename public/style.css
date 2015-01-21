@@ -141,36 +141,46 @@ padding: 0.5em;
 }
 
 table {
-  border-spacing: 0px 0px;
   margin: auto;
+  width: 100%;
+  /* max-width: 100%; */
 }
 
+
 td {
-  vertical-align: top;
-  padding: 0px 0px 0px 0px;
+  /* vertical-align: top; */
+  /* padding: 0px 0px 0px 0px; */
+  /* padding-left: 0.3em; */
+  /* min-width: 33%; */
   /* font-family: test, monospace;*/
-  min-height: 240px;
+  /* min-height: 240px; */
   /*min-width: 67ex;
   max-width: 67ex;*/
+  /* width: 50%; */
   word-wrap: break-word;
 }
 
 input {
+  border: 1px solid #AAA;
+  margin: 0px;
+  /*
   background-color: transparent;
   font-family:  'Droid Sans Mono', Monaco, Consolas, "Lucida Console", monospace;
   font-size: 1em;
   width: 210px;
   color: #555;
   margin: 0px;
-  border: 1px solid #AAA;
+  */
   /*-moz-border-radius: 0.3em;
   -webkit-border-radius: 0.3em;
   -khtml-border-radius: 0.3em;*/
+  /*
   border-radius: 0.3em;
   border-top-left-radius: 0.33em 1em;
   border-top-right-radius: 0.33em 0.16em;
   border-bottom-left-radius: 0.33em 0.16em;
   border-bottom-right-radius: 0.33em 1em;
+  */
 }
 .sw_submit {
   background-color: #ffffff;
@@ -188,9 +198,6 @@ input:hover {
 input:focus {
   background-color: transparent;
 }
-
-
-
 
 p {
   word-wrap: break-word;
@@ -221,6 +228,7 @@ img {
 
 a {
   text-decoration: none;
+	word-wrap: break-word;
 }
 
 a:hover {
@@ -265,28 +273,26 @@ form {
 
 #recent_events{
   float: left;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding: 0.5em;
+  margin-left: auto;
+  margin-right: 1em;
   border: 1px solid #e7e7e7;
+  padding: 0.5em;
   max-width: 40%;
   text-align: left;
-  border: 1px solid #e8e8e8;
   background-color: #ffffff;
   border-radius: 5px;
   font-family: 'Helvetica Neue', Roboto, 'Segoe UI', Calibri, sans-serif;
   font-size: 14px;
-  margin-left: auto;
-  margin-right: 1em;
 }
 
-.recent_event{
+.recent_event {
   padding-top: 0.6em;
   padding-bottom: 0.3em;
   padding-left: 26px;
   border-bottom: 1px solid #e8e8e8;;
   line-height: 16px;
 }
+
 .recent_events_header {
   font-weight: bold;
   font-size: 18px;
@@ -300,6 +306,7 @@ form {
   float: right;
   color: #707070;
 }
+
 .event_persona {
   display: inline-block;
   margin-left: -26px;
@@ -312,6 +319,30 @@ form {
 
 .event_persona a:link, .event_persona a:visited {
   color: #444;
+}
+
+.event_unit {
+  border-top: 1px solid #e8e8e8;
+}
+
+.timeline_vote {
+  /* color: green; */
+  float: right;
+  text-align: right;
+  padding-top: 0px;
+}
+
+.timeline_vote a:link, .event_persona a:visited {
+  font-size: 14px;
+  color: green;
+}
+
+.vote {
+  text-align: left;
+}
+
+.clear {
+  clear: both;
 }
 
 a[href*="twitter"] {

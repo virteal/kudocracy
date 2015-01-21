@@ -660,6 +660,7 @@ ol {
 .vote{
   background:#fef;
   padding: 0.5em;
+  text-align: left;
 }
 .ballot{
   background:#eee;
@@ -689,11 +690,6 @@ a[href], button {
   touch-action: manipulation;
 }
 
-.name {
-  font-weight: bold;
-  color: #444;
-}
-
 .visitor_image {
   display: inline-block;
   position: relative;
@@ -705,16 +701,16 @@ a[href], button {
 }
 
 #recent_events{
+  float: right;
   margin: 0.5em;
   margin-left: 1em;
   margin-right: 0;
-  float: right;
-  overflow:hidden;
-  text-overflow: ellipsis;
-  padding: 0.5em;
-  background-color: #E3FFE8;
   border: 1px solid #e7e7e7;
+  padding: 0.5em;
   max-width: 29%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #E3FFE8;
   z-index: 10;
 }
 
@@ -725,15 +721,41 @@ a[href], button {
   border-bottom: 1px solid #e8e8e8;
   line-height: 1.8em;
 }
+
 .event_time {
   display: inline-block;
-  /* float: right; */
   color: #707070;
 }
+
+.name {
+  font-weight: bold;
+  color: #444;
+}
+
 .event_persona {
   display: inline-block;
   margin-left: -26px;
 }
+
+.event_unit {
+  border-top: 1px solid #e8e8e8;
+}
+
+.timeline_vote {
+  float: right;
+  /* color: green; */
+  /* padding-top: 4px; */
+}
+
+.timeline_vote form {
+  background-color: #E3FFE8;
+  padding: 0px;
+}
+
+.clear {
+  clear: both;
+}
+
 .chart_pie {
   height: 300px;
   max-width: 430px;
@@ -742,8 +764,4 @@ a[href], button {
   height: 100px;
 }
 
-
-a[href*="twitter"] {
-  color: #0084b4;
-}
 
