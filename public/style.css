@@ -129,6 +129,10 @@ padding: 0.5em;
   /*text-shadow: #F0E0E0 -1px -1px 1px, #644 1px 1px 1px;*/
 }
 
+#footer a:hover {
+  color: #000;
+}
+
 #version {
   color: #444;
   /*text-shadow: #999 1px 1px 1px, #EEE -1px -1px 1px;*/
@@ -231,10 +235,12 @@ a {
 	word-wrap: break-word;
 }
 
+/*
 a:hover {
   color: #C44;
   text-decoration: underline;
 }
+*/
 
 a:link {
   color:#444;
@@ -277,7 +283,7 @@ form {
   margin-right: 1em;
   border: 1px solid #e7e7e7;
   padding: 0.5em;
-  max-width: 40%;
+  max-width: 44%;
   text-align: left;
   background-color: #ffffff;
   border-radius: 5px;
@@ -332,7 +338,7 @@ form {
   padding-top: 0px;
 }
 
-.timeline_vote a:link, .event_persona a:visited {
+.timeline_vote a:link, .timeline_vote a:visited {
   font-size: 14px;
   color: green;
 }
@@ -345,7 +351,7 @@ form {
   clear: both;
 }
 
-a[href*="twitter"] {
+a[href^="http://twitter"] {
   color: #0084b4;
 }
 
@@ -355,4 +361,7 @@ a[href*="twitter"] {
 
 .twitter_blue {
   color: #55ACEE;
+}
+.delegate_too {
+  text-align: right;
 }

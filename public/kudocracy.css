@@ -113,6 +113,8 @@ body {
 }
 
 #page_background{
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #container {
@@ -604,6 +606,7 @@ ol {
   padding: 0.5em;
   line-height: 1.8em;
   overflow: hidden;
+  border-radius: 5px;
 }
 /* restore cancel button in search input fields, removed by bootstrap maybe */
 #search input[type=search]::-webkit-search-cancel-button {
@@ -650,11 +653,12 @@ ol {
   float: right;
   color: #ddd;
   font-size: 120%;
+  padding-top: 0.2em;
 }
 .show_button_icon{
   display: none;
   float: left;
-  color: #bbb;
+  color: #666;
   font-size: 140%;
 }
 .vote{
@@ -700,7 +704,7 @@ a[href], button {
   cursor: pointer; 
 }
 
-#recent_events{
+#recent_events {
   float: right;
   margin: 0.5em;
   margin-left: 1em;
@@ -712,7 +716,45 @@ a[href], button {
   text-overflow: ellipsis;
   background-color: #E3FFE8;
   z-index: 10;
+  border-radius: 5px;
 }
+
+.twitter_style #recent_events {
+  float: left;
+  margin-left: auto;
+  margin-right: 1em;
+  margin-top: 0px;
+  max-width: 47%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-family: 'Helvetica Neue', Roboto, 'Segoe UI', Calibri, sans-serif;
+  font-size: 14px;
+}
+
+.twitter_style .recent_event {
+  line-height: 16px;
+}
+
+.twitter_style .event_time {
+  float: right;
+}
+
+.recent_events_header {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px;
+  border-bottom: 1px solid #e8e8e8;
+  color: #292f33;
+}
+
+.twitter_style .recent_events_header a:link, .twitter_style .recent_events_header a:visited {
+  color: #444;
+}
+
+.twitter_style .vote_menu_core a:link, .twitter_style .vote_menu_core a:visited {
+  color: #777;
+}
+
 
 .recent_event{
   padding-top: 0.6em;
@@ -752,6 +794,10 @@ a[href], button {
   padding: 0px;
 }
 
+.twitter_style .timeline_vote form {
+  background-color: #ffffff;
+}
+
 .clear {
   clear: both;
 }
@@ -760,6 +806,7 @@ a[href], button {
   height: 300px;
   max-width: 430px;
 }
+
 .chart_serie {
   height: 100px;
 }
@@ -770,4 +817,15 @@ a[href], button {
 
 .twitter_blue {
   color: #55ACEE;
+}
+
+.delegate_too {
+  text-align: right;
+}
+
+a[href^="http://twitter"] {
+  color: #0084b4;
+}
+a[href^="https://twitter"] {
+  color: #0084b4;
 }
