@@ -5,6 +5,7 @@ html {
   /* font-size: 100%;
   overflow-y: scroll; */
 }
+
 body {
   margin: 0px;
   font-family: "Droid Sans", Verdana, Arial, sans-serif;
@@ -28,6 +29,7 @@ body {
   word-wrap: break-word;
   z-index: 20;
 }
+
 #unfadder {
   position: fixed;
   top: 0;
@@ -39,6 +41,7 @@ body {
   -khtml-border-radius: 0.3em;
   border-radius: 0.3em;
 }
+
 #header {
   top: 0;
   width: 100%;
@@ -57,30 +60,37 @@ body {
   cursor: default;
   z-index: 10;
 }
+
 #header_content {
   margin: 0px 0.3em;
   text-align: center;
 }
+
 #header_content > div {
   display: inline;
 }
+
 #top_left {
   float: left;
   border-bottom: 1px dotted blue;
   text-align: left;
 }
+
 #top_center {
   text-align: center;
 }
+
 #top_right {
   /* float: right; -- set dynamically to preserve height when noscript */
   border-bottom: 1px dotted red;
   text-align: right;
 }
 
+
 #header a {
   color: #333;
 }
+
 #header a:hover {
   -moz-border-radius: 0.3em;
   -webkit-border-radius: 0.3em;
@@ -118,8 +128,7 @@ body {
 }
 
 #container {
-  margin: 2em auto;
-  /* font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace; */
+  margin: auto;
   overflow: hidden;
 }
 
@@ -372,11 +381,12 @@ a:visited {
 .hothot strong {
   color: red;
 }
-/*
-a:hover,
-a.hover {
-  text-decoration: underline;
+
+a:hover {
+  color: #B02;
 }
+
+/*
 b {
   color: #222;
 }
@@ -719,6 +729,10 @@ a[href], button {
   border-radius: 5px;
 }
 
+#recent_events img {
+  margin-right: 4px;
+}
+
 .twitter_style #recent_events {
   float: left;
   margin-left: auto;
@@ -759,7 +773,7 @@ a[href], button {
 .recent_event{
   padding-top: 0.6em;
   padding-bottom: 0.3em;
-  padding-left: 26px;
+  padding-left: 30px;
   border-bottom: 1px solid #e8e8e8;
   line-height: 1.8em;
 }
@@ -776,11 +790,12 @@ a[href], button {
 
 .event_persona {
   display: inline-block;
-  margin-left: -26px;
+  margin-left: -30px;
 }
 
 .event_unit {
   border-top: 1px solid #e8e8e8;
+  min-height: 27px;
 }
 
 .timeline_vote {

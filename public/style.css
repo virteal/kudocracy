@@ -8,42 +8,25 @@
  * (c) 2006-14 JeanHuguesRobert
   */
 
-html {
-  font-size: 100%;
-  overflow-y: scroll;
-}
-
 body {
   background-color: #505065;
-  color: #484848;
-/*  color: #444;*/
-  margin:0em;
   font-family: 'Droid Sans Mono', Consolas, monospace;
-  line-height: 1.2em;
-  width: 100%;
-  height: 100%;
   text-align: center;
   font-size: 16pt;
-  /*text-shadow: #DDD 0.03em 0.03em 0.05em, #FAFAFA -1px -1px 1px;*/
-  /*text-shadow: #999 1px 1px 1px, #EEE -1px -1px 1px*/
-/*  background-color: #FAFAFA;*/
 }
 
 #tagline {
-  text-align: right;
 }
 
-div.i18n{
-  display: none;
-}
-
-span.i18n{
-  display: none;
-}
-
-.sw_header {
+#header {
+  font-size: 100%;
   background-color: #99CCFF;
   padding: 1em 0em;
+  line-height: 1.2em;
+}
+
+#header img {
+  border: none;
 }
 
 .sw_header_content {
@@ -53,9 +36,7 @@ span.i18n{
 }
 
 .sw_logo {
-/*  text-shadow: #DDD 0.03em 0.03em 0.05em, #DDEEFF -1px -1px 1px;*/
   width: 240px;
-  /*text-shadow: #DEF -1px -1px 1px;*/
   background-color: #99CCFF;
 }
 
@@ -63,18 +44,8 @@ h1 {
   color: #555;
   font-size: 150%;
   font-style: italic;
-  /*text-shadow: #DEF -1px -1px 1px;*/
   background-color: #99CCFF;
   margin-bottom: 0em;
-  /*text-shadow: #888 1px 1px 1px, #CCC -1px -1px 1px;*/
-  /*text-decoration: underline;*/
-  /*text-shadow: #AAA 1px 1px 1px, #FAFAFA -1px -1px 1px;*/
-}
-
-.sw_code {
- /* max-width: 640px; */
-  margin: 0px 0.5em;
- /*  text-align: right; */
 }
 
 .sw_boxed {
@@ -91,17 +62,6 @@ border-bottom-right-radius: 1em 3em;
 margin: 0px auto;
 max-width: 640px;
 padding: 0.5em;
-/*
-  border: 1px;
-  border-style: solid;
-  border-color: #CCC;
-  max-width: 640px;
-  margin: 0px auto;
-  padding: 0.5em;
-  -webkit-box-shadow: #888 2px 4px 6px;
-  -moz-border-radius: 1em;
-  -webkit-border-radius: 1em;
-  -khtml-border-radius: 1em;*/
 }
 
 #sw_box {
@@ -277,10 +237,11 @@ form {
   display: inline-block;
 }
 
-#recent_events{
+#recent_events {
   float: left;
   margin-left: auto;
   margin-right: 1em;
+  margin-top: 0px;
   border: 1px solid #e7e7e7;
   padding: 0.5em;
   max-width: 44%;
@@ -292,7 +253,7 @@ form {
 }
 
 .recent_event {
-  padding-top: 0.6em;
+  padding-top: 0px;
   padding-bottom: 0.3em;
   padding-left: 26px;
   border-bottom: 1px solid #e8e8e8;;
@@ -300,11 +261,8 @@ form {
 }
 
 .recent_events_header {
-  font-weight: bold;
-  font-size: 18px;
-  padding: 5px;
-  border-bottom: 1px solid #e8e8e8;
-  color: #292f33;
+  padding-top: 2px;
+  padding-bottom: 7px;
 }
 
 .event_time {
