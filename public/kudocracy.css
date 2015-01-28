@@ -81,14 +81,14 @@ body {
 }
 
 #top_right {
-  /* float: right; -- set dynamically to preserve height when noscript */
+  float: right;
   border-bottom: 1px dotted red;
   text-align: right;
 }
 
 
 #header a {
-  color: #333;
+  color: #444;
 }
 
 #header a:hover {
@@ -611,6 +611,7 @@ ol {
 
 #search_box {
   text-align: center;
+  margin-bottom: 0.5em;
 }
 
 #search{
@@ -665,17 +666,23 @@ ol {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.hide_button_icon{
+.hide_button_icon {
+  display: inline-block;
   float: right;
   color: #ddd;
-  font-size: 120%;
-  padding-top: 0.2em;
+  cursor: pointer;
+}
+.hide_button_icon:hover {
+  cursor: pointer;
 }
 .show_button_icon{
   display: none;
   float: left;
   color: #666;
   font-size: 140%;
+}
+.show_button_icon:hover {
+  cursor: pointer;
 }
 .vote{
   background:#fef;
@@ -728,6 +735,10 @@ a[href], button {
   padding: 0.3em;
 }
 
+.vote_twitter {
+  padding-top: 0.3em;
+}
+
 #recent_events {
   float: right;
   margin-left: 1em;
@@ -753,6 +764,12 @@ a[href], button {
   border-radius: 5px;
   font-family: 'Helvetica Neue', Roboto, 'Segoe UI', Calibri, sans-serif;
   font-size: 14px;
+}
+
+.twitter_style table {
+  margin: auto;
+  width: 100%;
+  /* max-width: 100%; */
 }
 
 #main_twitter_timeline {
@@ -788,6 +805,7 @@ a[href], button {
   padding-bottom: 6px;
   border-bottom: 1px solid #e8e8e8;
   color: #292f33;
+  white-space: nowrap;
 }
 
 .twitter_style .recent_events_header a:link, .twitter_style .recent_events_header a:visited {
@@ -807,6 +825,7 @@ a[href], button {
   border-bottom: 1px solid #e8e8e8;
   margin-bottom: 0.5em;
   color: #292f33;
+  white-space: nowrap;
 }
 
 .proposition {
@@ -852,8 +871,6 @@ a[href], button {
 
 .timeline_vote {
   float: right;
-  /* color: green; */
-  /* padding-top: 4px; */
 }
 
 .timeline_vote form {
