@@ -739,6 +739,14 @@ a[href], button {
   padding-top: 0.3em;
 }
 
+.vote_ellipsis {
+  color: #BB0000;
+  cursor: pointer;
+}
+.vote_ellipsis:hover {
+  color: #FF0000;
+}
+
 #recent_events {
   float: right;
   margin-left: 1em;
