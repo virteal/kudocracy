@@ -720,6 +720,16 @@ dfn a:hover {
   color:blue;
 }
 
+dfn img {
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
+
+dfn img:hover {
+  -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%);
+}
+
 a:active {
   color: green; /* #A11B17; */
 }
@@ -871,7 +881,7 @@ a[href], button {
   white-space: nowrap;
 }
 
-#delegates_view {
+#delegates_view, #votes_view {
   max-width: 960px;
 }
 
