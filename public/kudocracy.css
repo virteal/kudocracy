@@ -20,7 +20,7 @@ body {
 }
 
 .kudo_touch body {
-  line-height: 32px;
+  line-height: 24px;
 }
 
 #tooltip {
@@ -403,23 +403,28 @@ em {
   font-style: normal;
   color: #B01;
 }
+
 em a:link, em a:visited {
   font-style: normal;
   color: #B01;
   text-decoration: underline;
 }
+
 cite {
   color: #222;
   font-style: italic;
   /* font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace; */
 }
+
 dfn {
   font-style: normal;
   color: #BBB;
 }
+
 dfn:hover {
   color: #555;
 }
+
 /*
 var {
   font-size: 0px;
@@ -452,29 +457,36 @@ div.yaml:hover {
   color: #004600;
 }
 */
+
 time {
   color: #BBB;
   font-style: italic;
   text-transform: lowercase;
 }
+
 time > i {
   color: transparent;
   text-shadow: none;
 }
+
 time > em {
   font-size: 0px;
   color: transparent;
   text-shadow: none;
 }
+
 time:hover {
   color: #555;
 }
+
 .recent {
   color: #B99;
 }
+
 .old {
   color: #DDD;
 }
+
 h1,
 h2,
 h3,
@@ -485,31 +497,38 @@ h5 {
   padding: 0px;
   line-height: 135%;
 }
+
 h1,
 h2,
 h3 {
   /* letter-spacing: -0.05em; */
 }
+
 h1 {
   font-size: 280%;
   font-weight: bolder;
 }
+
 h2 {
   font-size: 140%;
   font-weight: bold;
 }
+
 h3 {
   font-size: 110%;
   font-weight: bold;
 }
+
 h4 {
   font-size: 85%;
 }
+
 h5 {
   font-size: 60%;
   line-height: 1.2em;
   font-weight: normal;
 }
+
 hr {
   color: #333;
   background-color: #333;
@@ -519,12 +538,14 @@ hr {
   width: 100%;
   margin: 0.5em 0px;
 }
+
 .sw_hr {
   display: inline-block;
   width: 100%;
   text-align: center;
   color: #BBB;
 }
+
 .sw_pre_edit h1,
 .sw_pre_edit h2,
 .sw_pre_edit h3,
@@ -534,6 +555,7 @@ hr {
   line-height: 1.35em;
   margin: 0px 0px 0px 0px;
 }
+
 .sw_markdown h1,
 .sw_markdown h2,
 .sw_markdown h3,
@@ -541,12 +563,14 @@ hr {
 .sw_markdown h5 {
   display: block;
 }
+
 pre {
   line-height: inherit;
   white-space: pre-wrap;
   margin: 0px 0px 0px 0px;
   font-family: inherit;
 }
+
 form {
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
@@ -639,6 +663,7 @@ ol {
   -webkit-appearance: searchfield-cancel-button;
   -moz-appearance: searchfield-cancel-button;
 }
+
 #change_filter select {
   float: right;
   color: #888;
@@ -656,12 +681,15 @@ ol {
 .help{
   color:#884;
 }
+
 .ballot_text_area{
   border: 1px solid #e7e7e7; 
 }
+
 .thin_border{
   border: 1px solid #e7e7e7; 
 }
+
 .even{
   background:#eef;
   padding: 0.5em;
@@ -671,6 +699,7 @@ ol {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 .odd{
   background:#eff;
   padding: 0.5em;
@@ -680,33 +709,40 @@ ol {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 .hide_button_icon {
   display: inline-block;
   float: right;
   color: #ddd;
   cursor: pointer;
 }
+
 .hide_button_icon:hover {
   cursor: pointer;
 }
+
 .show_button_icon{
   display: none;
   float: left;
   color: #666;
   font-size: 140%;
 }
+
 .show_button_icon:hover {
   cursor: pointer;
 }
+
 .vote{
   background:#fef;
   padding: 0.5em;
   text-align: left;
 }
+
 .ballot{
   background:#eee;
   padding: 0.5em;
 }
+
 .comment{
   background:#efe;
   padding: 0.5em;
@@ -978,4 +1014,8 @@ a[href^="https://twitter"] {
 
 .action a:link, .action a:visited {
   color: green;
+}
+
+.nobr {
+  white-space: nowrap;
 }
