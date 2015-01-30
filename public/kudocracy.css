@@ -643,7 +643,6 @@ ol {
 }
 
 #search{
-  display: inline-block;
   text-align: left;
   border: 1px solid #e7e7e7; 
   background:#fee;
@@ -652,6 +651,12 @@ ol {
   line-height: 1.8em;
   overflow: hidden;
   border-radius: 5px;
+}
+
+@media (min-width: 400px) {
+#search {
+  display: inline-block;
+}
 }
 
 .kudo_touch #search {
@@ -867,6 +872,7 @@ a[href], button {
   float: right;
   max-width: 100%;
   margin: 0 auto;
+  margin-bottom: 0.5em;
 }
 
 @media (min-width: 520px) {
@@ -1010,6 +1016,7 @@ a[href^="https://twitter"] {
 
 .action {
   color: green;
+  cursor: pointer;
 }
 
 .action a:link, .action a:visited {
