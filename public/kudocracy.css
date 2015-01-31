@@ -714,25 +714,22 @@ ol {
   text-overflow: ellipsis;
 }
 
-.hide_button_icon {
-  display: inline-block;
+.hide_button {
   float: right;
   color: #ddd;
   cursor: pointer;
+  margin-left: 1em;
 }
 
-.hide_button_icon:hover {
-  cursor: pointer;
+.hide_button:after {
+  content: "X";
 }
 
-.show_button_icon{
+.show_button{
   display: none;
-  float: left;
+  float: right;
   color: #666;
   font-size: 140%;
-}
-
-.show_button_icon:hover {
   cursor: pointer;
 }
 
