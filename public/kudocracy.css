@@ -8,7 +8,8 @@ html {
 
 body {
   margin: 0px;
-  font-family: "Droid Sans", Verdana, Arial, sans-serif;
+  /* font-family: "Droid Sans", Verdana, Arial, sans-serif; */
+  font-family: 'Helvetica Neue', Roboto, 'Segoe UI', Calibri, sans-serif;
   color: #444;
   height: 100%;
   -webkit-tap-highlight-color: #c00;
@@ -66,7 +67,8 @@ body {
 }
 
 #header_content {
-  margin: 0px 0.3em;
+  margin: 0 auto;
+  max-width: 1550px;
   text-align: center;
 }
 
@@ -76,6 +78,7 @@ body {
 
 #top_left {
   float: left;
+  margin-left: 0.3em;
   border-bottom: 1px dotted blue;
   text-align: left;
 }
@@ -86,6 +89,7 @@ body {
 
 #top_right {
   float: right;
+  margin-right: 0.3em;
   border-bottom: 1px dotted red;
   text-align: right;
 }
@@ -132,7 +136,8 @@ body {
 }
 
 #container {
-  margin: auto;
+  margin: 0 auto;
+  max-width: 1570px;
   overflow: hidden;
 }
 
@@ -259,16 +264,12 @@ textarea {
 #footer {
   width: 100%;
   font-size: 120%;
-  /* min-height: 400px; */
   border-top: 1px solid #BBB;
-  /* border-bottom: 1px solid #BBB; */
-  color: #999;
   word-wrap: break-word;
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
   cursor: default;
-  /* line-height: 1.2em; */
 }
 #footer_content {
   margin: 0px 0.3em;
@@ -278,6 +279,10 @@ textarea {
 }
 #login {
   text-align: right;
+}
+
+#footer a:link, #footer a:visited {
+  color: #444;
 }
 
 .fb_iframe_widget {
@@ -370,15 +375,9 @@ img {
 #powered img {
   border: 0px;
 }
-/*
-a {
-  color: #33A;
-  text-decoration: none;
-}
-a:visited {
-  color: #33A;
-}
-*/
+
+
+
 .hot strong {
   color: #B01;
 }
@@ -794,7 +793,6 @@ a[href], button {
 
 .vote_menu_more {
   background: #FFFFFF;
-  border: 1px;
   border: 1px solid #e7e7e7;
   border-radius: 5px;
   padding: 0.3em;
@@ -837,7 +835,6 @@ a[href], button {
 .twitter_style table {
   margin: auto;
   width: 100%;
-  /* max-width: 100%; */
 }
 
 #main_twitter_timeline {
@@ -851,6 +848,7 @@ a[href], button {
   margin-bottom: 0.5em;
   max-width: 100%;
   background-color: #ffffff;
+  border: 1px solid #e7e7e7;
   border-radius: 5px;
   font-family: 'Helvetica Neue', Roboto, 'Segoe UI', Calibri, sans-serif;
   font-size: 14px;
@@ -873,13 +871,14 @@ a[href], button {
   max-width: 100%;
   margin: 0 auto;
   margin-bottom: 0.5em;
+  border: 1px solid #e7e7e7;
 }
 
 @media (min-width: 520px) {
 .twitter_style #recent_events, .twitter_style #propositions_list {
-  max-width: 520px;
-  margin-left: 0.3em;
-  margin-right: 0.3em;
+  max-width: 512px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 .twitter_style #recent_events {
   float: left;
@@ -897,7 +896,7 @@ a[href], button {
 .recent_events_header {
   font-weight: bold;
   font-size: 18px;
-  padding: 1px 5px 8px 5px;
+  padding: 1px 5px 9px 5px;
   border-bottom: 1px solid #e8e8e8;
   color: #292f33;
   white-space: nowrap;
@@ -1021,6 +1020,15 @@ a[href^="https://twitter"] {
 
 .action a:link, .action a:visited {
   color: green;
+}
+
+.wiki {
+  color: #855;
+}
+
+.wiki a:link, .wiki a:visited {
+  color: #855;
+  text-decoration: underline;
 }
 
 .nobr {

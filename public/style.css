@@ -35,11 +35,6 @@ body {
   max-width: 640px;
 }
 
-.sw_logo {
-  width: 240px;
-  background-color: #99CCFF;
-}
-
 h1 {
   color: #555;
   font-size: 150%;
@@ -70,32 +65,17 @@ padding: 0.5em;
   background-image: url(/bg.png);
 }
 
-#sw-login-box {
-  display: inline-block;
-  min-height: 24px;
-  max-height: 24px;
-  width: auto;
-  background-color: #99CCFF;
-  color: #444;
-  font-family: monospace;
-  font-size: small;
-  padding: 0 0.5em;
-}
-
 .sw_footer {
   background-color: #FFBABA;
   line-height: 1.7em;
-  /*text-shadow: #F0E0E0 1px 1px 1px;*/
-  /*text-shadow: #F0E0E0 -1px -1px 1px, #644 1px 1px 1px;*/
 }
 
 #footer a:hover {
-  color: #000;
+  color: #A00;
 }
 
 #version {
   color: #444;
-  /*text-shadow: #999 1px 1px 1px, #EEE -1px -1px 1px;*/
 }
 
 .sw {
@@ -107,48 +87,16 @@ padding: 0.5em;
 table {
   margin: auto;
   width: 100%;
-  /* max-width: 100%; */
 }
 
 
 td {
-  /* vertical-align: top; */
-  /* padding: 0px 0px 0px 0px; */
-  /* padding-left: 0.3em; */
-  /* min-width: 33%; */
-  /* font-family: test, monospace;*/
-  /* min-height: 240px; */
-  /*min-width: 67ex;
-  max-width: 67ex;*/
-  /* width: 50%; */
   word-wrap: break-word;
 }
 
 input {
   border: 1px solid #AAA;
   margin: 0px;
-  /*
-  background-color: transparent;
-  font-family:  'Droid Sans Mono', Monaco, Consolas, "Lucida Console", monospace;
-  font-size: 1em;
-  width: 210px;
-  color: #555;
-  margin: 0px;
-  */
-  /*-moz-border-radius: 0.3em;
-  -webkit-border-radius: 0.3em;
-  -khtml-border-radius: 0.3em;*/
-  /*
-  border-radius: 0.3em;
-  border-top-left-radius: 0.33em 1em;
-  border-top-right-radius: 0.33em 0.16em;
-  border-bottom-left-radius: 0.33em 0.16em;
-  border-bottom-right-radius: 0.33em 1em;
-  */
-}
-.sw_submit {
-  background-color: #ffffff;
-  color: #000;
 }
 
 input:hover {
@@ -163,66 +111,18 @@ input:focus {
   background-color: transparent;
 }
 
-p {
-  word-wrap: break-word;
-}
 
-/* Pure pure images */
-/*
-img {
-  border-top-color: #000000;
-  border-left-color: #000000;
-  border-right-color: #000000;
-  border-bottom-color: #000000;
-  border-top-width: 0;
-  border-left-width: 0;
-  border-right-width: 0;
-  border-bottom-width: 0;
-  border-top-style: none;
-  border-left-style: none;
-  border-right-style: none;
-  border-bottom-style: none;
-}
-*/
 .avatar img {
   border: 1px solid #ccd6dd;
   border-radius: 4px;
 }
 
 
-a {
-  text-decoration: none;
-	word-wrap: break-word;
-}
 
-/*
-a:hover {
-  color: #C44;
-  text-decoration: underline;
-}
-*/
-
-a:link {
+a:[href^='http://twitter.com']:link, a:[href^='http://twitter.com']:visited
+{
   color:#444;
-/* color: #744;*/
 }
-
-a:visited {
-  color:#444;
-/* color: #744;*/
-}
-
-a:active {
-/*  color:#33A;*/
-  color: red;
-}
-
-em {
-  font-style: normal;
-  font-weight: bold;
-  color: #942;
-}
-
 
 #content {
   background-color: #99CCFF;
