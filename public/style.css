@@ -150,3 +150,8 @@ form {
   margin: 0 auto;
 }
 }
+
+.hide_button:after {
+  content: "";
+}
+
