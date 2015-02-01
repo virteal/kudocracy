@@ -22,6 +22,7 @@
     "firebase": "^2.0.4",
     "l8": "latest",
     "querystring": ">=0.2.0",
+    "request": "^2.51.0",
     "split": ">=0.3.0",
     "twit": "^1.1.18"
   },
