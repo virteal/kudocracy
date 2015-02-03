@@ -10,7 +10,7 @@
 
 body {
   background-color: #505065;
-  font-family: 'Droid Sans Mono', Consolas, monospace;
+  /* font-family: 'Droid Sans Mono', Consolas, monospace; */
   text-align: center;
   font-size: 16pt;
 }
@@ -32,7 +32,7 @@ body {
 .sw_header_content {
   margin: auto;
   padding: 0em 0em;
-  max-width: 640px;
+  max-width: 960px;
 }
 
 h1 {
