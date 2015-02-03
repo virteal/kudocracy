@@ -35,7 +35,8 @@
   },
   "scripts": {
     "postinstall": "node node_modules/bower/bin/bower install",
-    "build": "./build.sh"
+    "build": "./build.sh",
+    "watchify": "watchify lib/ui1client.js -o browserified.js"
   },
   "repository": {
     "type": "git",
