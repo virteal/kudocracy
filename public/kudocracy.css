@@ -135,6 +135,10 @@ body {
   padding-bottom: 10px;
 }
 
+#domain {
+  margin-bottom: 0.5em;
+}
+
 #container {
   margin: 0 auto;
   max-width: 1570px;
