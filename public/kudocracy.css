@@ -991,6 +991,12 @@ a[href], button {
   max-width: 430px;
 }
 
+.chart_pie_small {
+  height: 150px;
+  max-width: 280px;
+  float: right;
+}
+
 .chart_serie {
   height: 100px;
 }
