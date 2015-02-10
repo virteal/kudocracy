@@ -851,6 +851,10 @@ a[href], button {
   width: 100%;
 }
 
+#main_twitter_timeline .hide_button {
+  float: none;
+}
+
 .twitter_style #recent_events {
   float: none;
   margin: 0 auto;
@@ -884,6 +888,7 @@ a[href], button {
 @media (min-width: 520px) {
 .twitter_style #recent_events, .twitter_style #propositions_list {
   max-width: 512px;
+  width: 512px;
   margin-left: 4px;
   margin-right: 4px;
 }
@@ -1005,6 +1010,7 @@ a[href], button {
 
 .chart_serie {
   height: 100px;
+  max-width: 430px;
 }
 
 .kudo_collapse {
