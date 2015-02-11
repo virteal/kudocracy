@@ -121,6 +121,12 @@ body {
   width: 50%;
   height: 100%;
   float: left;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+#kudo_iframe_div .hide_button {
+  float: left;
 }
 
 #kudo_iframe{
