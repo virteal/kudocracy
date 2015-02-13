@@ -24,7 +24,8 @@
     "querystring": ">=0.2.0",
     "request": "^2.51.0",
     "split": ">=0.3.0",
-    "twit": "^1.1.18"
+    "twit": "^1.1.18",
+    "diacritics": "latest"
   },
   "devDependencies": {
     "coffee-script": "latest",
