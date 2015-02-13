@@ -1026,6 +1026,10 @@ a[href], button {
   color: #55ACEE;
 }
 
+.twitter_bw {
+  color: #bbb;
+}
+
 .delegate_too {
   text-align: right;
 }
@@ -1047,12 +1051,17 @@ a[href^="https://twitter"] {
 }
 
 .wiki {
-  color: #855;
+  color: #bbb;
 }
 
 .wiki a:link, .wiki a:visited {
-  color: #855;
+  color: #bbb;
   text-decoration: underline;
+}
+
+.event_unit:hover .wiki, .proposition:hover .wiki,
+.odd:hover .wiki, .even:hover .wiki {
+  color: #FF0000;
 }
 
 .nobr {
