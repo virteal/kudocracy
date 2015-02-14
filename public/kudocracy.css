@@ -118,11 +118,27 @@ body {
 
 #kudo_iframe_div{
   display: none;
-  width: 50%;
+  width: 100%;
+  min-width: 320px;
   height: 100%;
   float: left;
   background-color: #FFFFFF;
   text-align: center;
+}
+
+#two_panes {
+  padding: 0px;
+  width: 100%;
+}
+
+#two_panes td:first-child {
+  padding: 0px;
+}
+
+#two_panes td {
+  padding: 0px;
+  border: 0;
+  vertical-align: top;
 }
 
 #kudo_iframe_div .hide_button {
@@ -133,6 +149,7 @@ body {
   width: 100%;
   height: 100%;
   border: 0;
+  border-right: 1px solid #ccc;
 }
 
 #page_background{
@@ -207,22 +224,24 @@ select::-ms-expand {
   display: none;
 }
 
-tr {
+#content tr {
   border-top: 1px solid #ccc;
   /* line-height: 1.4em; */
 }
-tr:first-child {
+#content tr:first-child {
   border-top: 0px;
 }
-td {
+#content td {
   border: 0;
   padding-top: 0.4em;
   padding-bottom: 0.3em;
   vertical-align: top;
 }
-td:first-child {
+#content td:first-child {
+  border: 0;
   padding-right: 0.5em;
 }
+
 textarea {
  /* font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace; */
   background-color: transparent;
@@ -820,6 +839,14 @@ a[href], button {
 }
 .vote_ellipsis:hover {
   color: #FF0000;
+}
+
+.float_right {
+  float: right;
+}
+
+.float_left {
+  float: left;
 }
 
 #recent_events {
