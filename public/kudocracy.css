@@ -2,13 +2,10 @@
 html {
   -ms-touch-action: manipulation;
   touch-action: manipulation;
-  /* font-size: 100%;
-  overflow-y: scroll; */
 }
 
 body {
   margin: 0px;
-  /* font-family: "Droid Sans", Verdana, Arial, sans-serif; */
   font-family: 'Helvetica Neue', Roboto, 'Segoe UI', Calibri, sans-serif;
   color: #444;
   height: 100%;
@@ -193,9 +190,7 @@ body {
   white-space: normal;
   font-family: "Droid Sans", Verdana, Arial, sans-serif;
 }
-.angular {
-  white-space: normal;
-}
+
 #content_header {
   margin-bottom: 1em;
 }
@@ -263,6 +258,7 @@ textarea {
   background-color: #000;
   color: #eee;
 }
+
 #sw_notifications {
   font-size: 1em;
   background-color: #EEF;
@@ -295,6 +291,7 @@ textarea {
   -webkit-padding-start: 1em;
   list-style-type: disc;
 }
+
 #footer {
   width: 100%;
   font-size: 120%;
@@ -1088,7 +1085,7 @@ a[href^="https://twitter"] {
 
 .event_unit:hover .wiki, .proposition:hover .wiki,
 .odd:hover .wiki, .even:hover .wiki {
-  color: #FF0000;
+  color: #DD0000;
 }
 
 .nobr {
