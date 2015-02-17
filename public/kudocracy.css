@@ -180,7 +180,7 @@ body {
   border-bottom-style: none;
   margin: auto;
   text-align: left;
-  vertical-align: top;
+  vertical-align: baseline;
   padding: 0px 1em 0px 1em;
   min-height: 240px;
   width: 31.5em;
@@ -230,11 +230,14 @@ select::-ms-expand {
   border: 0;
   padding-top: 0.4em;
   padding-bottom: 0.3em;
-  vertical-align: top;
+  vertical-align: middle;
 }
 #content td:first-child {
   border: 0;
+  padding-top: 0.4em;
+  padding-bottom: 0.3em;
   padding-right: 0.5em;
+  vertical-align: middle;
 }
 
 textarea {
