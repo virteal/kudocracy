@@ -783,12 +783,13 @@ ol {
   padding: 0.5em;
   max-width: 72em
 }
+
 dfn a:link, dfn a:visited {
   color:#bbb;
-  text-decoration: underline;
 }
 dfn a:hover {
-  color:blue;
+  color: #444;
+  text-decoration: underline;
 }
 
 dfn img {
@@ -1078,11 +1079,11 @@ a[href^="https://twitter"] {
 }
 
 .wiki {
-  color: #bbb;
+  color: #aaa;
 }
 
 .wiki a:link, .wiki a:visited {
-  color: #bbb;
+  color: #aaa;
   text-decoration: underline;
 }
 
