@@ -410,6 +410,58 @@ img {
   border: 0px;
 }
 
+#badge {
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;
+  background-color: #eee;
+  background-image: -webkit-linear-gradient(#fff,#dedede);
+  background-image: linear-gradient(#fff,#dedede);
+  border: #ccc solid 1px;
+  border-radius: 3px;
+  color: #333;
+  font-weight: bold;
+  height: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  display: inline-block;
+}
+
+#badge_count {
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;
+  background-color: #fff;
+  border: #ccc solid 1px;
+  border-radius: 3px;
+  color: #333;
+  height: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  display: inline-block;
+}
+
+#badges_generator textarea {
+  background-color: #eee;color: #666;
+  white-space: nowrap;
+  resize: none;
+  overflow: hidden;
+  line-height: 21px;
+  cursor: pointer;
+  padding: 0.3em;
+  border: 1px solid #cccccc;
+}
+
+
+#badge a:link, #badge a:visited {
+  color: #333;
+}
+
+#badge-domain img {
+  border: 0px;
+  vertical-align: sub;
+}
+
 
 
 .hot strong {
