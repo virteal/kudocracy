@@ -442,14 +442,19 @@ img {
 }
 
 #badges_generator textarea {
-  background-color: #eee;color: #666;
+  background-color: #eeeeee;
+  font-size: 14px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  color: #666;
+  width: 450px;
+  height: auto;
   white-space: nowrap;
   resize: none;
   overflow: hidden;
   line-height: 21px;
   cursor: pointer;
   padding: 0.3em;
-  border: 1px solid #cccccc;
 }
 
 
@@ -1146,4 +1151,8 @@ a[href^="https://twitter"] {
 
 .nobr {
   white-space: nowrap;
+}
+
+.kudocracy-button iframe {
+  vertical-align: bottom;
 }
