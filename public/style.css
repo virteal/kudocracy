@@ -8,28 +8,13 @@
  * (c) 2006-14 JeanHuguesRobert
   */
 
-body {
-  background-color: #505065;
-  /* font-family: 'Droid Sans Mono', Consolas, monospace; */
-  text-align: center;
-  font-size: 16pt;
-}
-
 #header {
-  font-size: 100%;
-  background-color: #99CCFF;
-  padding: 1em 0em;
+  padding-top: 1em;
   line-height: 1.2em;
 }
 
-#header img {
+.sw_logo img {
   border: none;
-}
-
-.sw_header_content {
-  margin: auto;
-  padding: 0em 0em;
-  max-width: 960px;
 }
 
 h1 {
@@ -44,8 +29,6 @@ h1 {
 -webkit-box-shadow: #EEE 0px 0px 6px;
 -moz-box-shadow: #EEE 0px 0px 6px;
 -box-shadow: #EEE 0px 0px 6px;
-border-color: initial;
-border-style: initial;
 border: 1px solid #CCC;
 border-top-left-radius: 1em 3em;
 border-top-right-radius: 1em 0.5em;
@@ -61,22 +44,6 @@ padding: 0.5em;
   background-image: url(/bg.png);
 }
 
-.sw_footer {
-  background-color: #FFBABA;
-  line-height: 1.7em;
-}
-
-#footer a:hover {
-  color: #A00;
-}
-
-.sw_footer img {
-  margin-bottom: 18px;
-}
-
-#version {
-  color: #444;
-}
 
 .sw {
   width: 540px;
@@ -94,46 +61,13 @@ td {
   word-wrap: break-word;
 }
 
-input {
-  border: 1px solid #AAA;
-  margin: 0px;
-}
-
-input:hover {
-  color:#A42;
-  text-decoration: none;
-  -webkit-box-shadow: 0px 0px 10px #336699;
-  -moz-box-shadow: 0px 0px 10px #336699;
-  box-shadow: 0px 0px 10px #336699;
-}
-
-input:focus {
-  background-color: transparent;
-}
-
 
 .avatar img {
   border: 1px solid #ccd6dd;
   border-radius: 4px;
 }
 
-
-
-a:[href^='http://twitter.com']:link, a:[href^='http://twitter.com']:visited
-{
-  color:#444;
-}
-
-#content {
-  background-color: #99CCFF;
-}
-
-
 form {
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-  border: 0px;
-  outline: 0px;
   display: inline-block;
 }
 
