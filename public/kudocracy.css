@@ -767,7 +767,9 @@ a[href], button {
 #delegations_view,
 #votes_view, 
 #domain_view, 
-#badges_view {
+#badges_view,
+#ballot_view
+{
   padding: 0.5em;
   margin: 0px;
   margin-bottom: 0.5em;
