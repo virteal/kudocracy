@@ -1,6 +1,7 @@
 
 html {
   -ms-touch-action: manipulation;
+  -ms-overflow-style: scrollbar;
   touch-action: manipulation;
 }
 
@@ -965,7 +966,7 @@ a[href^="https://twitter"] {
 
 .event_unit:hover .wiki, .proposition:hover .wiki,
 .odd:hover .wiki, .even:hover .wiki {
-  color: #DD0000;
+ /* color: #DD0000; */
 }
 
 .nobr {
