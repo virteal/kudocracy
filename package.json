@@ -1,6 +1,6 @@
 {
   "name": "kudocracy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An experimental Liquid Democracy voting system where people can like/dislike hashtags.",
   "main": "lib/main.js",
   "files": [
