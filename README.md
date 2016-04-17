@@ -6,6 +6,8 @@ kudocracy
 Where is it running ?
 ---------------------
 
+April 16 2016. It's running nowhere right now. I'm working on it.
+
 Either connect to http://kudocracy.com or send a "login" direct message to @Kudocracy using http://twitter.com and then follow the link in the response.
 
 
