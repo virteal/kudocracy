@@ -13,8 +13,17 @@
   line-height: 1.2em;
 }
 
+.sw_logo {
+  background-color: #99CCFF;
+}
+
 .sw_logo img {
   border: none;
+}
+
+.sw_logo a {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 h1 {
@@ -26,16 +35,16 @@ h1 {
 }
 
 .sw_boxed {
--webkit-box-shadow: #EEE 0px 0px 6px;
--moz-box-shadow: #EEE 0px 0px 6px;
--box-shadow: #EEE 0px 0px 6px;
-border: 1px solid #CCC;
-border-top-left-radius: 1em 3em;
-border-top-right-radius: 1em 0.5em;
-border-bottom-left-radius: 1em 0.5em;
-border-bottom-right-radius: 1em 3em;
-margin: 0px auto;
-padding: 0.5em;
+  -webkit-box-shadow: #EEE 0px 0px 6px;
+  -moz-box-shadow: #EEE 0px 0px 6px;
+  -box-shadow: #EEE 0px 0px 6px;
+  border: 1px solid #CCC;
+  border-top-left-radius: 1em 3em;
+  border-top-right-radius: 1em 0.5em;
+  border-bottom-left-radius: 1em 0.5em;
+  border-bottom-right-radius: 1em 3em;
+  margin: 0px auto;
+  padding: 0.5em;
 }
 
 #sw_box {

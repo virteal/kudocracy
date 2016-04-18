@@ -52,6 +52,7 @@ body {
   z-index: 10;
 }
 
+
 #header_content {
   margin: 0 auto;
   max-width: 1550px;
@@ -76,8 +77,15 @@ body {
 }
 
 
-#header a {
+#kudo_header_menu a {
+  margin-left: 1em;
+  margin-right: 1em;
   color: #444;
+}
+
+#header_content a {
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 #header a:hover {
@@ -91,6 +99,11 @@ body {
   color: #B01;
   /* background-color: #FFBABA; */
   text-decoration: none;
+}
+
+#slogan a {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 #progress_bar{
