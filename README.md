@@ -3,10 +3,18 @@ kudocracy
 
 "Liquid democracy meets Twitter..."
 
+Avril 2016, version spéciale "NuitDebout"
+-----------------------------------------
+
+L'intérêt inespéré pour la démocratie directe et même pour la démocratie liquide m'a poussé à reprendre le développement de Kudocracy interrompu depuis plus d'un an.
+Entre temps, des offres de vote en ligne se sont consolidées, particulièrement Loomio et DemocracyOS. Malheureusement aucune offre moderne n'inclue de mécanisme pour automatiser le vote, aucune délégation, aucun suivi de recommendations de vote.
+C'est pourquoi, bien qu'il ne soit qu'un prototype probablement incapable de gérer des grands nombres de votants, Kudocracy pourrait participer à la meilleure connaissance des avantages de la démocratie liquidique, y compris dans sa forme simple : la démocratie délégative.
+
+La documentation est pour l'instant en anglais, une traduction est en cours.
+
+
 Where is it running ?
 ---------------------
-
-April 16 2016. It's running nowhere right now. I'm working on it.
 
 Either connect to http://kudocracy.com or send a "login" direct message to @Kudocracy using http://twitter.com and then follow the link in the response.
 
