@@ -724,8 +724,8 @@ a[href], button {
 }
 
 #recent_events {
-  text-align: left;
   float: right;
+  text-align: left;
   margin-left: 1em;
   margin-right: 0;
   padding: 0.5em;
@@ -801,7 +801,7 @@ a[href], button {
 }
 
 .twitter_style #propositions_list {
-  float: right;
+  float: left;
   max-width: 100%;
   margin: 0 auto;
   margin-bottom: 0.5em;
@@ -816,7 +816,7 @@ a[href], button {
   margin-right: 4px;
 }
 .twitter_style #recent_events {
-  float: left;
+  float: right;
 }
 }
 

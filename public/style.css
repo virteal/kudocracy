@@ -89,7 +89,7 @@ form {
 
 @media (min-width: 1040px) {
 .twitter_style #recent_events {
-  float: left;
+  float: right;
   margin: 0 auto;
 }
 }
