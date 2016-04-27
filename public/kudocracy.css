@@ -77,6 +77,10 @@ body {
 }
 
 
+#kudo_header_menu > div {
+  display: inline;
+}
+
 #kudo_header_menu a {
   margin-left: 1em;
   margin-right: 1em;
@@ -84,8 +88,13 @@ body {
 }
 
 #header_content a {
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.fast {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 #header a:hover {
@@ -703,6 +712,7 @@ a[href], button {
   padding: 0.3em;
 }
 
+
 .vote_twitter {
   padding-top: 0.3em;
 }
@@ -745,7 +755,6 @@ a[href], button {
 .twitter_style {
   text-align: left;
 }
-
 
 .twitter_style table {
   margin: auto;
@@ -960,7 +969,9 @@ a[href^="https://twitter"] {
 
 .action {
   color: green;
-  cursor: pointer;
+  cursor: pointer;  
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .action a:link, .action a:visited {
