@@ -8,7 +8,7 @@ Avril 2016, version spéciale "NuitDebout"
 
 L'intérêt inespéré pour la démocratie directe et même pour la démocratie liquide m'a poussé à reprendre le développement de Kudocracy interrompu depuis plus d'un an.
 Entre temps, des offres de vote en ligne se sont consolidées, particulièrement Loomio et DemocracyOS. Malheureusement aucune offre moderne n'inclue de mécanisme pour automatiser le vote, aucune délégation, aucun suivi de recommendations de vote.
-C'est pourquoi, bien qu'il ne soit qu'un prototype probablement incapable de gérer des grands nombres de votants, Kudocracy pourrait participer à la meilleure connaissance des avantages de la démocratie liquidique, y compris dans sa forme simple : la démocratie délégative.
+C'est pourquoi, bien qu'il ne soit qu'un prototype probablement incapable de gérer des grands nombres de votants (quoique...), Kudocracy pourrait participer à la meilleure connaissance des avantages de la démocratie liquidique, y compris dans sa forme simple : la démocratie délégative.
 
 La documentation est pour l'instant en anglais, une traduction est en cours.
 
@@ -21,12 +21,12 @@ Either connect to http://kudocracy.com or send a "login" direct message to @Kudo
 
 What is it?
 -----------
-A voting system where people can either directly approve or disapprove propositions associated to hashtags or delegate that decision.
+A voting system where people can either directly approve or disapprove propositions associated to tags or delegate that decision.
 
 
-Hashtags?
+Tags?
 ---------
-Hashtags are keywords used to categorize topics in social networks.
+Tags are keywords used to categorize topics in social networks.
 
 
 Delegate?
@@ -65,7 +65,7 @@ What is available is a prototype. Depending on success, the prototype will hopef
 
 Who are you?
 --------
-My name is Jean-Hugues Robert, @jhr. I am a 49 years old software developper from Corsica (the island where Napoleon was born). When I found out about Delegative Democracy, I liked that. I think that it would be a good thing to apply it broadly using modern technologies, technologies that people now use all over the world.
+My name is Jean-Hugues Robert, (jhr on twitter). I am a 50 years old software developper from Corsica (the island where Napoleon was born). When I found out about Delegative Democracy, I liked that. I think that it would be a good thing to apply it broadly using modern technologies, technologies that people now use all over the world.
 
 Jean-Hugues, March 2015.
 
