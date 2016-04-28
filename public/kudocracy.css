@@ -9,6 +9,7 @@ body {
   margin: 0px;
   font-family: Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif;
   font-size: 16px;
+  line-height: 1.8em;
   color: #444;
   height: 100%;
   -webkit-tap-highlight-color: #c00;
@@ -410,7 +411,9 @@ img {
   vertical-align: sub;
 }
 
-
+img.avatar {
+  margin-right: 0.2em;
+}
 
 .hot strong {
   color: #B01;
