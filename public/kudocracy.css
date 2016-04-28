@@ -7,7 +7,8 @@ html {
 
 body {
   margin: 0px;
-  font-family: 'Helvetica Neue', Roboto, 'Segoe UI', Calibri, sans-serif;
+  font-family: Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif;
+  font-size: 16px;
   color: #444;
   height: 100%;
   -webkit-tap-highlight-color: #c00;
@@ -385,7 +386,7 @@ img {
 
 #badges_generator textarea {
   background-color: #eeeeee;
-  font-size: 14px;
+  font-size: 16px;
   border: 1px solid #cccccc;
   border-radius: 4px;
   color: #666;
@@ -777,7 +778,7 @@ a[href], button {
   max-width: 100%;
   background-color: #ffffff;
   font-family: 'Helvetica Neue', Roboto, 'Segoe UI', Calibri, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #propositions_list,
@@ -801,7 +802,7 @@ a[href], button {
   background-color: #ffffff;
   border-radius: 5px;
   font-family: 'Helvetica Neue', Roboto, 'Segoe UI', Calibri, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #292f33;
 }
 
@@ -838,8 +839,8 @@ a[href], button {
 }
 
 .recent_events_header {
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: 300;
+  font-size: 27px;
   padding: 1px 5px 9px 5px;
   border-bottom: 1px solid #e8e8e8;
   color: #292f33;
@@ -852,12 +853,12 @@ a[href], button {
 
 #propositions_list_header a:link, #propositions_list_header a:visited {
   color: #292f33;
-  font-size: 16px;
+  font-size: 27px;
 }
 
 #propositions_list_header {
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: 300;
+  font-size: 27px;
   padding: 5px;
   padding-bottom: 7px;
   border-bottom: 1px solid #e8e8e8;
