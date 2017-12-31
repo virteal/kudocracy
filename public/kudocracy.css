@@ -796,7 +796,8 @@ a[href], button {
 #votes_view, 
 #domain_view, 
 #badges_view,
-#ballot_view
+#ballot_view,
+#twittrust_view
 {
   padding: 0.5em;
   margin: 0px;
