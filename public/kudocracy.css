@@ -556,6 +556,19 @@ form {
   outline: 0px 0px 0px 0px;
 }
 
+#news{
+  padding: 0.5em;
+  margin: 0px;
+  margin-bottom: 0.5em;
+  max-width: 960px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-family: 'Helvetica Neue', Roboto, 'Segoe UI', Calibri, sans-serif;
+  font-size: 16px;
+  color: #292f33;
+  text-align: left;
+}
+
 #search_box {
   text-align: center;
   margin-bottom: 0.5em;
