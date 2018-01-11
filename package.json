@@ -1,6 +1,6 @@
 {
   "name": "kudocracy",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "An experimental Liquid Democracy voting system where people can like/dislike hashtags.",
   "main": "lib/main.js",
   "files": [
@@ -25,7 +25,8 @@
     "request": "^2.72.0",
     "split": ">=1.0.0",
     "twit": "^2.2.3",
-    "diacritics": "latest"
+    "diacritics": "latest",
+    "ngraph.pagerank": "latest"
   },
   "devDependencies": {
     "coffee-script": "latest",
