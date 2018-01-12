@@ -1017,3 +1017,24 @@ a[href^="https://twitter"] {
 .kudocracy-button iframe {
   vertical-align: bottom;
 }
+
+.tweet {
+  background-color: #ffffff;
+  min-height: 51px;
+  border-bottom: 1px solid rgb(225, 232, 237);
+  color: rgb(41, 47, 51);
+  cursor: pointer;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  font-size: 14px;
+  line-height: 18px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  padding: 9px 12px;
+  position: relative;
+  text-align: start;
+}
+
+.tweet_content {
+  margin-left: 58px;
+}
