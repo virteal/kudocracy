@@ -16,6 +16,8 @@ La documentation est pour l'instant en anglais, une traduction est en cours.
 Where is it running ?
 ---------------------
 
+Update : it's not running anymore currently (june 2021), I had to cut my AWS account for financial reasons, sorry about that.
+
 Either connect to http://kudocracy.com or send a "login" direct message to @Kudocracy using http://twitter.com and then follow the link in the response.
 
 
